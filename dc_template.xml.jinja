@@ -1,0 +1,116 @@
+{% set study = tree.get('study', [{}])[0] %}
+{% set series  = tree.get('series', []) %}
+{% set dataset = tree.get('dataset', []) %}
+
+<metadata 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xsi:schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd">
+
+    {# Title #}
+    {% if study.title %}
+        <dcterms:title>{{ study.title[0] | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:title>
+    {% endif %}
+
+    {# Alternative Title(s) #}
+    {% if study.altTitle %}
+        {% for alt_title in study.altTitle %}
+            <dcterms:alternative>{{ alt_title | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;") }}</dcterms:alternative>
+        {% endfor %}
+    {% endif %}
+
+    {# Principal Investigator(s) #}
+    {% if study.creator %}
+        {% set creators = study.creator | rejectattr("order", "equalto", "0") %}
+
+        {% for creator in creators %}
+            <dcterms:creator>{{ creator.name }}</dcterms:creator>
+        {% endfor %}
+    {% endif %}
+
+    {# Original Release Date #}
+    {% if study.issued %}
+        <dcterms:issued>{{ study.issued[0] | from_iso_date | format_date('%Y-%m-%d') }}</dcterms:issued>
+    {% endif %}
+
+    {# Version Date #}
+    {% if study.modified %}
+        <dcterms:modified>{{ study.modified[0] | from_iso_date | format_date('%Y-%m-%d') }}</dcterms:modified>
+    {% endif %}
+
+    {# Citation #}
+    {% if study.citation %}
+        <dcterms:bibliographicCitation>{{ study.citation[0] | strip_tags | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:bibliographicCitation>
+    {% endif %}
+
+    {# Distributor #}
+    {% if study.distributor %}
+        {% for distributor in study.distributor %}
+            <dcterms:publisher>{{ distributor | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:publisher>
+        {% endfor %}  
+    {% endif %}
+
+    {# Identifier (DOI) #}
+    {% if study.doi %}
+        <dcterms:identifier>{{ study.doi[0] }}</dcterms:identifier>
+    {% endif %}
+
+    {# Summary #}
+    {% if study.description %}
+        <dcterms:description>{{ study.description | join('\n') | strip_tags | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:description>
+    {% endif %}
+
+    {# Subject Terms #}
+    {% for keyword in study.keyword %}
+        <dcterms:subject>{{ keyword | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:subject>
+    {% endfor %}
+
+    {# Geographic Coverage #}
+    {% for spatialTerm in study.spatial %}
+        <dcterms:spatial>{{ spatialTerm | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:spatial>
+    {% endfor %}
+
+    {# Time Period #}
+    {% if study.timePeriod | length > 0 %}
+        {% set timePeriod = study.timePeriod | collapse_date_ranges %}
+
+        <dcterms:temporal>{{ timePeriod }}</dcterms:temporal>
+    {% endif %}
+
+    {# Data Source #}
+    {% if study.source %}
+        {% for sourceItem in study.source %}
+            <dcterms:source>{{ sourceItem | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:source>
+        {% endfor %}
+    {% endif %}
+
+    {# Restrictions #}
+    {% if study.membershipRequired[0] == "true" %}
+        {% set restrictionNote = "Available to ICPSR member institutions." %}
+    {% else %}
+        {% set restrictionNote = "Available to the general public." %}
+    {% endif %}
+
+    {% if study.restricted[0] == "true" %}
+        {% set restrictionNote = restrictionNote ~ "  Special restrictions apply to one or more files." %}
+        {% if study.doi %}
+            {% set restrictionNote = restrictionNote ~ "  Visit " ~ study.doi[0] ~ " to apply for access to restricted data." %}
+        {% endif %}
+    {% endif %}
+
+    <dcterms:accessRights>{{ restrictionNote }}</dcterms:accessRights>
+
+    {# Collection Changes #}
+    {% if study.collectionChanges %}
+        {% for collectionChange in study.collectionChanges | map('strip_tags') | map('trim') | sort %}
+            <dcterms:provenance>{{ collectionChange }}</dcterms:provenance>
+        {% endfor %}
+    {% endif %}
+
+    {# Series #}
+    {% if series %}
+        {% for s in series %}
+            <dcterms:isPartOf>{{ s.title[0] | trim }}</dcterms:isPartOf>
+        {% endfor %}
+    {% endif %}
+</metadata>
