@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xsi:schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd">
+    <dcterms:title xml:lang="en">Project on Human Development in Chicago Neighborhoods (PHDCN):  Systematic Social Observation, 1995</dcterms:title>
+    <dcterms:alternative xml:lang="en">PHDCN SSO, 1995</dcterms:alternative>
+    <dcterms:type>Dataset</dcterms:type>
+    <dcterms:creator>Earls, Felton J.</dcterms:creator>
+    <dcterms:creator>Reiss, Albert J., Jr.</dcterms:creator>
+    <dcterms:creator>Raudenbush, Stephen W.</dcterms:creator>
+    <dcterms:creator>Sampson, Robert J.</dcterms:creator>
+    <dcterms:issued>2005-07-18</dcterms:issued>
+    <dcterms:modified>2005-07-18</dcterms:modified>
+    <dcterms:bibliographicCitation>Earls, Felton J., Raudenbush, Stephen W., Reiss, Albert J., Jr., and Sampson, Robert J. Project on Human Development in Chicago Neighborhoods (PHDCN): Systematic Social Observation, 1995. Inter-university Consortium for Political and Social Research [distributor], 2005-07-18. https://doi.org/10.3886/ICPSR13578.v1</dcterms:bibliographicCitation>
+    <dcterms:publisher>Inter-university Consortium for Political and Social Research</dcterms:publisher>
+    <dcterms:identifier>https://doi.org/10.3886/ICPSR13578.v1</dcterms:identifier>
+    <dcterms:description xml:lang="en">The Project on Human Development in Chicago Neighborhoods (PHDCN) was a large-scale, interdisciplinary study of how families, schools, and neighborhoods affect child and adolescent development. One component of the PHDCN was the Systematic Social Observation (SSO). The SSO was a standardized approach for directly observing the physical, social, and economic characteristics of neighborhoods, one block at a time. In 1995, the PHDCN initiated a combined person-based and videotaped approach to collecting systematic observations of neighborhoods. Eighty of the 343 Neighborhood Clusters were used in this study. Once the sampling was complete, the block face (the block segment on one side of the street) became the unit of observation. Using videotape and observer logs, data were collected in the 80 sampled Chicago neighborhoods. Only a sample of block faces were selected for coding due to budget expenses. The National Opinion Research Center (NORC) collected the data for the SSO. Between June and October of 1995, trained observers from NORC drove a sports utility vehicle down every block within the 80 sampled neighborhoods. A videographer videotaped both sides of each block, while two  observers recorded characteristics of each block face on observer logs. Further coding of the videotapes and observer logs was conducted by NORC staff.</dcterms:description>
+	<dcterms:subject xml:lang="en">communities</dcterms:subject>
+	<dcterms:subject xml:lang="en">delinquent behavior</dcterms:subject>
+	<dcterms:subject xml:lang="en">gangs</dcterms:subject>
+	<dcterms:subject xml:lang="en">housing</dcterms:subject>
+	<dcterms:subject xml:lang="en">neighborhood characteristics</dcterms:subject>
+	<dcterms:subject xml:lang="en">neighborhood conditions</dcterms:subject>
+	<dcterms:subject xml:lang="en">neighborhoods</dcterms:subject>
+	<dcterms:subject xml:lang="en">perceptions</dcterms:subject>
+	<dcterms:subject xml:lang="en">social behavior</dcterms:subject>
+	<dcterms:subject xml:lang="en">social control</dcterms:subject>
+	<dcterms:subject xml:lang="en">social indicators</dcterms:subject>
+	<dcterms:subject xml:lang="en">substance abuse</dcterms:subject>
+	<dcterms:subject xml:lang="en">urban areas</dcterms:subject>
+	<dcterms:subject xml:lang="en">urban crime</dcterms:subject>
+	<dcterms:subject xml:lang="en">violence</dcterms:subject>
+	<dcterms:spatial>Chicago</dcterms:spatial>
+	<dcterms:spatial>Illinois</dcterms:spatial>
+	<dcterms:spatial>United States</dcterms:spatial>
+	<dcterms:temporal>1995-06/1995-10</dcterms:temporal>
+	<dcterms:accessRights xml:lang="en">Available to the general public.</dcterms:accessRights>
+	<dcterms:provenance xml:lang="en">2018-02-15 The citation of this study may have changed due to the new version control system that has been implemented. The previous citation was: Earls, Felton J., Stephen W. Raudenbush, Albert J., Jr. Reiss, and Robert J. Sampson. Project on Human Development in Chicago Neighborhoods (PHDCN):  Systematic Social Observation, 1995    . ICPSR13578-v1. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2005-07-18. http://doi.org/10.3886/ICPSR13578.v1</dcterms:provenance>
+	<dcterms:isPartOf>Project on Human Development in Chicago Neighborhoods (PHDCN) Series</dcterms:isPartOf>
+</metadata>
+
+
+
+

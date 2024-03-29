@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xsi:schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd">
+    <dcterms:title xml:lang="en">Survey of Prison Inmates, United States, 2016</dcterms:title>
+    <dcterms:alternative xml:lang="en">Survey of Prison Inmates, 2016</dcterms:alternative>
+    <dcterms:type>Dataset</dcterms:type>
+    <dcterms:creator>United States. Bureau of Justice Statistics</dcterms:creator>
+    <dcterms:issued>2020-12-21</dcterms:issued>
+    <dcterms:modified>2021-09-15</dcterms:modified>
+    <dcterms:bibliographicCitation>United States. Bureau of Justice Statistics. Survey of Prison Inmates, United States, 2016. Inter-university Consortium for Political and Social Research [distributor], 2021-09-15. https://doi.org/10.3886/ICPSR37692.v4</dcterms:bibliographicCitation>
+    <dcterms:publisher>Inter-university Consortium for Political and Social Research</dcterms:publisher>
+    <dcterms:identifier>https://doi.org/10.3886/ICPSR37692.v4</dcterms:identifier>
+    <dcterms:description xml:lang="en">To fulfill part of its mission, the Bureau of Justice Statistics (BJS) conducted the Survey of Prison Inmates (SPI), a national, wide-ranging survey of prisoners age 18 or older who were incarcerated in state or federal correctional facilities within the United States. SPI provides national statistics on prisoner characteristics across a variety of domains, such as current offense and sentence, incident characteristics, firearm possession and sources, criminal history, demographic and socioeconomic characteristics, family background, drug and alcohol use and treatment, mental and physical health and treatment, and facility programs and rules violations. SPI can also be used to track changes in these characteristics over time, describe special populations of prisoners, and identify policy-relevant changes in the state and federal prison populations. Formerly the Survey of Inmates in State and Federal Correctional Facilities (SISFCF), this survey was renamed SPI with the 2016 iteration.</dcterms:description>
+	<dcterms:subject xml:lang="en">Hispanic or Latino origins</dcterms:subject>
+	<dcterms:subject xml:lang="en">alcohol</dcterms:subject>
+	<dcterms:subject xml:lang="en">correctional facilities</dcterms:subject>
+	<dcterms:subject xml:lang="en">correctional facilities (adults)</dcterms:subject>
+	<dcterms:subject xml:lang="en">correctional system</dcterms:subject>
+	<dcterms:subject xml:lang="en">crime</dcterms:subject>
+	<dcterms:subject xml:lang="en">criminal histories</dcterms:subject>
+	<dcterms:subject xml:lang="en">demographic characteristics</dcterms:subject>
+	<dcterms:subject xml:lang="en">drugs</dcterms:subject>
+	<dcterms:subject xml:lang="en">family background</dcterms:subject>
+	<dcterms:subject xml:lang="en">federal correctional facilities</dcterms:subject>
+	<dcterms:subject xml:lang="en">federal prisoners</dcterms:subject>
+	<dcterms:subject xml:lang="en">firearms</dcterms:subject>
+	<dcterms:subject xml:lang="en">inmates</dcterms:subject>
+	<dcterms:subject xml:lang="en">mental health</dcterms:subject>
+	<dcterms:subject xml:lang="en">national crime statistics (USA</dcterms:subject>
+	<dcterms:subject xml:lang="en">offenders</dcterms:subject>
+	<dcterms:subject xml:lang="en">offenses</dcterms:subject>
+	<dcterms:subject xml:lang="en">physical condition</dcterms:subject>
+	<dcterms:subject xml:lang="en">prison inmates</dcterms:subject>
+	<dcterms:subject xml:lang="en">prison sentences</dcterms:subject>
+	<dcterms:subject xml:lang="en">prison visits</dcterms:subject>
+	<dcterms:subject xml:lang="en">prisoners</dcterms:subject>
+	<dcterms:subject xml:lang="en">prisoners--health and hygiene</dcterms:subject>
+	<dcterms:subject xml:lang="en">race</dcterms:subject>
+	<dcterms:subject xml:lang="en">socioeconomic status</dcterms:subject>
+	<dcterms:subject xml:lang="en">state correctional facilities</dcterms:subject>
+	<dcterms:subject xml:lang="en">substance use</dcterms:subject>
+	<dcterms:subject xml:lang="en">treatment</dcterms:subject>
+	<dcterms:subject xml:lang="en">victims</dcterms:subject>
+	<dcterms:subject xml:lang="en">weapons</dcterms:subject>
+	<dcterms:spatial>United States</dcterms:spatial>
+	<dcterms:temporal>2016</dcterms:temporal>
+	<dcterms:accessRights xml:lang="en">Available to the general public.  Special restrictions apply to one or more files.  Visit https://doi.org/10.3886/ICPSR37692.v4 to apply for access to restricted data.</dcterms:accessRights>
+	<dcterms:provenance xml:lang="en">2020-12-21 ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:Performed consistency checks.Created variable labels and/or value labels.Standardized missing values.Performed recodes and/or calculated derived variables.Checked for undocumented or out-of-range codes.</dcterms:provenance>
+	<dcterms:provenance>2021-03-04 The study was updated to include a jackknife multipliers file and a revised user guide.</dcterms:provenance>
+	<dcterms:provenance>2021-08-19 A publicly available codebook was released for DS3 "Restricted-Use U.S. Data".</dcterms:provenance>
+	<dcterms:provenance>2021-09-15 The questionnaire in each of the PDF codebooks was replaced with an updated version containing a revised table of contents.</dcterms:provenance>
+	<dcterms:isPartOf>Survey of Prison Inmates (SPI) Series (Formerly Survey of Inmates in State and Federal Correctional Facilities (SISFCF))</dcterms:isPartOf>
+</metadata>
+
+
+
+

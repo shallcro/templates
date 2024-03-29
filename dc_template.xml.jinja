@@ -9,19 +9,22 @@
 
     {# Title #}
     {% if study.title %}
-        <dcterms:title>{{ study.title[0] | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:title>
+        <dcterms:title xml:lang="en">{{ study.title[0] | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:title>
     {% endif %}
 
     {# Alternative Title(s) #}
     {% if study.altTitle %}
         {% for alt_title in study.altTitle %}
-            <dcterms:alternative>{{ alt_title | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;") }}</dcterms:alternative>
+            <dcterms:alternative xml:lang="en">{{ alt_title | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;") }}</dcterms:alternative>
         {% endfor %}
     {% endif %}
 
+    {# Declare resource type; assume the hard-coded value would change if template is used for other resource types #}
+    <dcterms:type>Dataset</dcterms:type>
+    
     {# Principal Investigator(s) #}
     {% if study.creator %}
-        {% set creators = study.creator | rejectattr("order", "equalto", "0") %}
+        {% set creators = study.creator %}
 
         {% for creator in creators %}
             <dcterms:creator>{{ creator.name }}</dcterms:creator>
@@ -57,12 +60,12 @@
 
     {# Summary #}
     {% if study.description %}
-        <dcterms:description>{{ study.description | join('\n') | strip_tags | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:description>
+        <dcterms:description xml:lang="en">{{ study.description | join('\n') | strip_tags | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:description>
     {% endif %}
 
     {# Subject Terms #}
     {% for keyword in study.keyword %}
-        <dcterms:subject>{{ keyword | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:subject>
+        <dcterms:subject xml:lang="en">{{ keyword | trim |  replace("&", "&amp;") |  replace('"', "&quot;") |  replace("'", "&apos;")   }}</dcterms:subject>
     {% endfor %}
 
     {# Geographic Coverage #}
@@ -72,9 +75,10 @@
 
     {# Time Period #}
     {% if study.timePeriod | length > 0 %}
-        {% set timePeriod = study.timePeriod | collapse_date_ranges %}
+        {% set startDate = study.timePeriod | map(attribute="startDate") | min %}
+        {% set endDate = study.timePeriod | map(attribute="endDate") | max %}
 
-        <dcterms:temporal>{{ timePeriod }}</dcterms:temporal>
+        <dcterms:temporal>{{ [startDate, endDate] | select | join('/') }}</dcterms:temporal>
     {% endif %}
 
     {# Data Source #}
@@ -96,14 +100,18 @@
         {% if study.doi %}
             {% set restrictionNote = restrictionNote ~ "  Visit " ~ study.doi[0] ~ " to apply for access to restricted data." %}
         {% endif %}
+        <dcterms:accessRights xml:lang="en">{{ restrictionNote }}</dcterms:accessRights>
     {% endif %}
 
-    <dcterms:accessRights>{{ restrictionNote }}</dcterms:accessRights>
+    {% if study.licenseURI %}
+        <dcterms:license>{{ study.licenseURI[0]}}</dcterms:license>
+    {% endif %}
+
 
     {# Collection Changes #}
     {% if study.collectionChanges %}
         {% for collectionChange in study.collectionChanges | map('strip_tags') | map('trim') | sort %}
-            <dcterms:provenance>{{ collectionChange }}</dcterms:provenance>
+            <dcterms:provenance xml:lang="en">{{ collectionChange }}</dcterms:provenance>
         {% endfor %}
     {% endif %}
 

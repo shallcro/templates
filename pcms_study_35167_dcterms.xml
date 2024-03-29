@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xsi:schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd">
+    <dcterms:title xml:lang="en">Rochester Youth Development Study Phase 1 Data, 1988-1992 [Rochester, New York]</dcterms:title>
+    <dcterms:alternative xml:lang="en">RYDS Phase 1</dcterms:alternative>
+    <dcterms:type>Dataset</dcterms:type>
+    <dcterms:creator>Thornberry, Terence P.</dcterms:creator>
+    <dcterms:creator>Krohn, Marvin D.</dcterms:creator>
+    <dcterms:creator>Farnworth, Margaret</dcterms:creator>
+    <dcterms:creator>Lizotte, Alan J.</dcterms:creator>
+    <dcterms:issued>2016-06-24</dcterms:issued>
+    <dcterms:modified>2016-06-30</dcterms:modified>
+    <dcterms:bibliographicCitation>Thornberry, Terence P., Farnworth, Margaret, Krohn, Marvin D., and Lizotte, Alan J. Rochester Youth Development Study Phase 1 Data, 1988-1992 [Rochester, New York]. Inter-university Consortium for Political and Social Research [distributor], 2016-06-30. https://doi.org/10.3886/ICPSR35167.v1</dcterms:bibliographicCitation>
+    <dcterms:publisher>Inter-university Consortium for Political and Social Research</dcterms:publisher>
+    <dcterms:identifier>https://doi.org/10.3886/ICPSR35167.v1</dcterms:identifier>
+    <dcterms:description xml:lang="en">The Rochester Youth Development Study (RYDS) is part of the larger "Program of Research on the Causes and Correlates of Delinquency" initiated by the Office of Juvenile Justice and Delinquency Prevention in 1986. The RYDS examines causes and consequences of delinquency and drug use in an urban sample of adolescents. A sample of 1,000 seventh and eighth grade students was selected from Rochester, New York, public schools during the 1987-1988 academic year. These students were selected to over-represent youth at high risk for serious delinquency and drug use. In Phase 1 each student was interviewed nine times at six-month intervals from the Spring of 1988 until the Spring of 1992. In addition, interviews with one primary caretaker of each student were conducted eight times at six-month intervals from the Spring of 1988 until the Fall of 1991. The interviews lasted about an hour and cover a wide range of topics including social class position, family structure and processes, educational success, peer relationships, neighborhood characteristics, psychological functioning, social networks, and social support systems, and involvement in prosocial and antisocial behaviors.  When appropriate, the research team collected similar information from both the students and parents to provide multiple perspectives on these developmental issues. The research team also collected extensive information about problem behaviors including self-reported delinquency and drug use, gang membership, gun ownership, problem drug use, teenage parenthood, school dropout, and other problem behaviors.</dcterms:description>
+	<dcterms:subject xml:lang="en">alcohol</dcterms:subject>
+	<dcterms:subject xml:lang="en">child development</dcterms:subject>
+	<dcterms:subject xml:lang="en">crime</dcterms:subject>
+	<dcterms:subject xml:lang="en">crime control</dcterms:subject>
+	<dcterms:subject xml:lang="en">crime patterns</dcterms:subject>
+	<dcterms:subject xml:lang="en">crime prediction</dcterms:subject>
+	<dcterms:subject xml:lang="en">crime rates</dcterms:subject>
+	<dcterms:subject xml:lang="en">drug use</dcterms:subject>
+	<dcterms:subject xml:lang="en">juvenile crime</dcterms:subject>
+	<dcterms:subject xml:lang="en">juvenile gangs</dcterms:subject>
+	<dcterms:subject xml:lang="en">juvenile justice</dcterms:subject>
+	<dcterms:subject xml:lang="en">juvenile offenders</dcterms:subject>
+	<dcterms:subject xml:lang="en">juvenile recidivists</dcterms:subject>
+	<dcterms:subject xml:lang="en">juveniles</dcterms:subject>
+	<dcterms:subject xml:lang="en">parent child relationship</dcterms:subject>
+	<dcterms:subject xml:lang="en">parental attitudes</dcterms:subject>
+	<dcterms:subject xml:lang="en">parental influence</dcterms:subject>
+	<dcterms:subject xml:lang="en">peer groups</dcterms:subject>
+	<dcterms:subject xml:lang="en">peer influence</dcterms:subject>
+	<dcterms:subject xml:lang="en">school age children</dcterms:subject>
+	<dcterms:subject xml:lang="en">social services</dcterms:subject>
+	<dcterms:subject xml:lang="en">tobacco use</dcterms:subject>
+	<dcterms:spatial>New York (state)</dcterms:spatial>
+	<dcterms:spatial>Rochester (New York)</dcterms:spatial>
+	<dcterms:spatial>United States</dcterms:spatial>
+	<dcterms:temporal>1988/1992</dcterms:temporal>
+	<dcterms:source>In-person structured interviews of student participants and one parental figure for each student</dcterms:source>
+	<dcterms:accessRights xml:lang="en">Available to the general public.  Special restrictions apply to one or more files.  Visit https://doi.org/10.3886/ICPSR35167.v1 to apply for access to restricted data.</dcterms:accessRights>
+	<dcterms:provenance xml:lang="en">2016-06-24 ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:Standardized missing values.Checked for undocumented or out-of-range codes.</dcterms:provenance>
+	<dcterms:provenance>2016-06-30 Updated the documentation.</dcterms:provenance>
+	<dcterms:provenance>2018-02-15 The citation of this study may have changed due to the new version control system that has been implemented. The previous citation was: Thornberry, Terence P., Margaret Farnworth, Marvin D. Krohn, and Alan J. Lizotte. Rochester Youth Development Study Phase 1 Data, 1988-1992 [Rochester, New York]. ICPSR35167-v1. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2016-06-30. http://doi.org/10.3886/ICPSR35167.v1</dcterms:provenance>
+	<dcterms:isPartOf>Program of Research on the Causes and Correlates of Delinquency Series</dcterms:isPartOf>
+</metadata>
+
+
+
+
