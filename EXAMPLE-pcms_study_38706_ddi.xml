@@ -1,0 +1,116 @@
+<codeBook
+    xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xmlns="ddi:codebook:2_5" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <docsDscr>
+        <citation>
+            <titlStmt>
+                <titl>Metadata record for Early Care and Education Leadership Study (ExCELS), United States, 2022</titl>
+                <IDNo agency="ICPSR">38706</IDNo>
+            </titlStmt>
+            <prodStmt>
+                <producer abbr="ICPSR">Inter-university Consortium for Political and Social Research</producer>
+                <copyright>ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License <ExtLink URI="http://creativecommons.org/licenses/by-nc/3.0/us/"/></copyright>
+            </prodStmt>
+        </citation>
+    </docsDscr>
+    <studyDscr>
+        <citation>
+            <titlStmt>
+                <titl>Early Care and Education Leadership Study (ExCELS), United States, 2022</titl>
+                <altTitl>ExCELS</altTitl>
+                <IDNo agency="ICPSR">38706</IDNo>
+                <IDNo agency="DataCite">https://doi.org/10.3886/ICPSR38706.v3</IDNo>
+            </titlStmt>
+            <respStmt>
+                <AuthEnty>United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation</AuthEnty>
+            </respStmt>
+            <prodStmt>
+                <fundAg>United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation</fundAg>
+            </prodStmt>
+            <distStmt>
+                <distrbtr abbr="ICPSR" affiliation="Institute for Social Research, University of Michigan">Inter-university Consortium for Political and Social Research</distrbtr>
+                <distDate date="2024-01-16">January 16, 2024</distDate>
+            </distStmt>
+            <verStmt>
+                <version date="2024-01-16">V3</version>
+                <notes>&lt;p&gt;2023-06-28 ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Created variable labels and/or value labels.&lt;/li&gt;&lt;li&gt;Checked for undocumented or out-of-range codes.&lt;/li&gt;&lt;/ul&gt;</notes>
+                <notes>2023-06-29 ICPSR codebooks were updated with a corrected study website link.</notes>
+                <notes>2024-01-16 The User Guide was updated by the Data Producer to include an additional citation for the study technical report.</notes>
+            </verStmt>
+            <biblCit>United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation. Early Care and Education Leadership Study (ExCELS), United States, 2022. Inter-university Consortium for Political and Social Research [distributor], 2024-01-16. https://doi.org/10.3886/ICPSR38706.v3</biblCit>
+            <holdings URI="https://doi.org/10.3886/ICPSR38706.v3"></holdings>
+        </citation>
+        <stdyInfo>
+            <subject>
+                <keyword vocab="ICPSR thesaurus">Child Care and Development Fund</keyword>
+                <keyword vocab="ICPSR thesaurus">Head Start</keyword>
+                <keyword vocab="ICPSR thesaurus">child care</keyword>
+                <keyword vocab="ICPSR thesaurus">daycare</keyword>
+                <keyword vocab="ICPSR thesaurus">early childhood education</keyword>
+                <keyword vocab="ICPSR thesaurus">education</keyword>
+                <keyword vocab="ICPSR thesaurus">infants</keyword>
+                <keyword vocab="ICPSR thesaurus">leadership</keyword>
+                <keyword vocab="ICPSR thesaurus">preschool children</keyword>
+                <keyword vocab="ICPSR thesaurus">teachers</keyword>
+                <keyword vocab="ICPSR thesaurus">testing and measurement</keyword>
+                <keyword vocab="ICPSR thesaurus">toddlers</keyword>
+            </subject>
+            <abstract contentType="abstract">&lt;p&gt;The Early Care and Education Leadership Study (ExCELS) was funded by the Office of Planning, Research, and Evaluation within the Administration for Children and Families in the U.S. Department of Health and Human Services. The project team was led by Mathematica and the Institute for Early Education Leadership and Innovation at the University of Massachusetts Boston.&lt;/p&gt; &lt;p&gt;The project included a descriptive study with the following goals: (1) establish a measure of early care and education (ECE) leadership in center-based settings that serve children birth through age five (not yet in kindergarten) that meets standards for reliability and validity to support its intended use and (2) examine empirical support for the associations among key constructs and outcomes in the theory of change of ECE leadership for quality improvement. Research questions focused on understanding the three key elements that define what leadership in center-based ECE settings looks like: (1) who leaders are, (2) what individuals bring to leadership, and (3) what ECE staff do as leaders.&lt;/p&gt; &lt;p&gt;From February through July 2022, the study team recruited 132 ECE centers across four states that served children from birth through age 5 (who are not yet in kindergarten), and that were supported by Head Start grants or Child Care and Development Fund (CCDF) subsidies. From March through August 2022, the study team conducted phone interviews to collect center characteristics and learn about the center&apos;s staffing structure and leadership positions, and distributed surveys to center managers and teaching staff in recruited centers.&lt;/p&gt; &lt;p&gt;The User&apos;s Guide for this study can be obtained by selecting &quot;Documentation Only&quot; from the Download tab on this study homepage. The User&apos;s Guide and all ExCELS documentation will download in one zip file.&lt;/p&gt;</abstract>
+            <abstract contentType="purpose">STUDY PURPOSE: &lt;p&gt;The Early Care and Education Leadership Study (ExCELS) had three aims:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;To fill the definitional and measurement gaps to understand what leadership looks like, as defined by who participates in leadership in center-based early care and education (ECE) settings and the ways in which leaders can improve quality experiences for children in those settings&lt;/li&gt; &lt;li&gt;To develop a new measure of ECE leadership&lt;/li&gt; &lt;li&gt;To identify actionable leadership development initiatives and methods of evaluating them&lt;/li&gt; &lt;/ol&gt;</abstract>
+            <abstract contentType="mixed">STUDY DESIGN: &lt;p&gt;Recruitment occurred through mass mailing of study materials to centers (March and May 2022) and individualized center recruitment via email and phone follow-up that went though July 2022.&lt;/p&gt; &lt;p&gt;During recruitment, primary site leaders (PSL) who expressed interest participated in a brief engagement interview via phone call to collect information on a center&apos;s characteristics and determine their center&apos;s study eligibility. Upon confirming eligibility and center participation, within one week of completing the engagement interview, a staffing structure and leadership positions (SSLP) interview was conducted with PSLs by phone. Rosters of all teaching staff in classrooms serving children from birth through age 5 and contact information for center managers were also collected at the end of each SSLP interview. SSLP interviews were conducted from March through August 2022.&lt;/p&gt; &lt;p&gt;At each center, up to three center managers received a center manager survey, a 25-minute self-administered, web-based survey with a paper option. Center manager respondents were provided with a token of appreciation for survey completion. All teaching staff included on the center&apos;s roster received a teaching staff survey, a 60-minute, self-administered, web-based survey, with a paper option. Teaching staff survey respondents were provided with both a pre-pay token of appreciation and one upon survey completion. Data collection for both the center manager and teaching staff survey was completed by the end of August 2022.&lt;/p&gt;</abstract>
+            <abstract contentType="mixed">COMMON SCALES: &lt;p&gt;The Essential 0-5 Survey. Ehrlich, S.B., D.M. Pacchiano, A.G. Stein, M.R. Wagner, S. Luppescu, S. Park, E. Frank, H. Lewandowski, and C. Young. &quot;Organizing Early Education for Improvement: Testing a New Survey Tool.&quot; University of Chicago Consortium on School Research and the Ounce of Prevention Fund, 2018.&lt;/p&gt; &lt;p&gt;Stress scale from the Survey of Organization Functioning (Institute of Behavior Research 2005)&lt;/p&gt;</abstract>
+            <sumDscr>
+                <timePrd event="start" date="2022">2022</timePrd>
+                <collDate event="start" date="2022-03-01">2022-03-01</collDate>
+                <collDate event="end" date="2022-08-31">2022-08-31</collDate>
+                <geogCover>United States</geogCover>
+                <anlyUnit>Center</anlyUnit>
+                <anlyUnit>Individual</anlyUnit>
+                <universe>Center managers and teaching staff (lead, head, co-teacher and assistant teachers) in center-based early care and education (ECE) settings (that is, settings serving children from birth through age 5, not yet in kindergarten) that were receiving funding through Child Care and Development Fund (CCDF) subsidies and/or from Head Start grants.</universe>
+                <dataKind>survey data</dataKind>
+            </sumDscr>
+        </stdyInfo>
+        <method>
+            <dataColl>
+                <timeMeth>mail questionnaire</timeMeth>
+                <timeMeth>paper and pencil interview (PAPI)</timeMeth>
+                <timeMeth>telephone interview</timeMeth>
+                <timeMeth>web-based survey</timeMeth>
+                <sampProc>&lt;p&gt;The Early Care and Education Leadership Study (ExCELS) used a purposive sample. The research team selected four states to sample centers for the descriptive study and aimed to recruit at least 120 centers within those states for the study. The purposive sample focused on centers funded by Head Start or CCDF that were located in urban and suburban areas. A center was defined as a specific physical location with at least two classrooms primarily providing early care and education (ECE) services for children from birth through age 5 (not yet in kindergarten). States were selected using the following criteria:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Strength of administrator qualifications in licensing, credentialing, and Quality Rating and Improvement System (QRIS) criteria, as of June 2018&lt;/li&gt; &lt;li&gt;Funding to support access and quality&lt;/li&gt; &lt;li&gt;Stringency of licensing requirements as minimum standards for quality to reflect the regulatory environment&lt;/li&gt; &lt;li&gt;Geographic diversity&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Once states were selected for the study based on sampling criteria, sampling lists of early care and education (ECE) centers were constructed by pulling information from the Head Start Enterprise System, public websites about community-based centers, and a state Department of Education's list of centers in that state. Researchers conducted varying levels of outreach to over 3,000 centers to ultimately have 132 eligible, participating centers.&lt;/p&gt; &lt;p&gt;Once centers were deemed eligible, survey respondents were selected, including staff in formal manager roles (center directors or managers) who were responsible for daily operations and the education program in each center and all teaching staff from each center in classrooms serving children from birth through age 5.&lt;/p&gt; &lt;p&gt;One to three managers per center were selected to receive the center manager survey, depending upon center size. The manager had to spend some time at the center to be eligible to complete the survey. All teaching staff in classrooms serving children from birth through age 5, including lead, head, or co-teachers and assistant teachers, were selected for the teaching staff survey.&lt;/p&gt;</sampProc>
+            </dataColl>
+            <anlyInfo>
+                <respRate>&lt;p&gt;The Early Care and Education Leadership Study (ExCELS) descriptive study sample included all 132 recruited, eligible centers that completed a staffing structure and leadership positions (SSLP) interview. Not all centers completed all survey data collection activities. Eight centers withdrew from further data collection after the SSLP interview and before staff could be invited to complete the surveys. Two additional centers withdrew from data collection after the center manager survey data collection. None of these 10 centers provided teaching staff rosters. Therefore, 122 centers participated in all data collection activities (that is, completed the SSLP interview and received invitations to the center manager and teaching staff surveys). To examine the technical properties of the leadership item set, the research team established an analytic complete target for a center of at least 50 percent for the response rate on the teaching staff surveys (with at least two completed teaching staff surveys) and at least the primary site leader (PSL) completing a center manager survey. This goal was met by 110 centers.&lt;/p&gt; &lt;p&gt;Across all centers that received survey invitations, the response rate was 92 percent for center managers and 88 percent for teaching staff. Considering the response rates within a center, center manager surveys were completed in 121 centers--107 centers had all center managers complete a survey, with 119 having at least the PSL complete the survey. Teaching staff surveys were completed in 122 centers--94 centers had 80 percent or more of their teaching staff complete a survey (with at least two completes). At least 50 percent of teaching staff completed a survey in 119 centers.&lt;/p&gt;</respRate>
+            </anlyInfo>
+            <notes>&lt;p&gt;&lt;strong&gt;Acknowledgments:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Gretchen Kirby, Project Director, Mathematica&lt;/p&gt; &lt;p&gt;Lizabeth Malone, Co-Project Investigator, Mathematica&lt;/p&gt; &lt;p&gt;Anne Douglass, Co-Project Investigator, Institute for Early Education Leadership and Innovation at the University of Massachusetts Boston&lt;/p&gt;</notes>
+        </method>
+        <dataAccs>
+            <setAvail media="online">
+                <accsPlac URI="https://doi.org/10.3886/ICPSR38706.v3">Inter-university Consortium for Political and Social Research</accsPlac>
+            </setAvail>
+            <useStmt>
+                <conditions>ICPSR Terms of Use <ExtLink URI="https://www.icpsr.umich.edu/web/ICPSR/studies/38706/terms"</ExtLink></conditions>
+                <restrctn>Available to the general public. Access to these data requires an application and signed Restricted Data Use Agreement. Details, including the Restricted Data Use Agreement, are provided via the online application.</restrctn>
+                <specPerm>Visit https://doi.org/10.3886/ICPSR38706.v3 to apply for access to restricted data.</specPerm>
+            </useStmt>
+        </dataAccs>
+    </stdyDscr>
+    <fileDscr>
+        <fileTxt>
+            <fileName ID="38706-0000">Study-Level Files</fileName>
+        </fileTxt>
+    </fileDscr>
+    <fileDscr>
+        <fileTxt>
+            <fileName ID="38706-0003">Teaching Staff Survey Data</fileName>
+        </fileTxt>
+    </fileDscr>
+    <fileDscr>
+        <fileTxt>
+            <fileName ID="38706-0001">Center Level Data</fileName>
+        </fileTxt>
+    </fileDscr>
+    <fileDscr>
+        <fileTxt>
+            <fileName ID="38706-0002">Center Manager Survey Data</fileName>
+        </fileTxt>
+    </fileDscr>
+</codeBook>

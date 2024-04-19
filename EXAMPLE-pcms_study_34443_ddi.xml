@@ -1,0 +1,80 @@
+<codeBook
+    xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xmlns="ddi:codebook:2_5" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <docsDscr>
+        <citation>
+            <titlStmt>
+                <titl>Metadata record for Post-Acute Care Supplement (PACS) Research Files, 2000-2010</titl>
+                <IDNo agency="ICPSR">34443</IDNo>
+            </titlStmt>
+            <prodStmt>
+                <producer abbr="ICPSR">Inter-university Consortium for Political and Social Research</producer>
+                <copyright>ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License <ExtLink URI="http://creativecommons.org/licenses/by-nc/3.0/us/"/></copyright>
+            </prodStmt>
+        </citation>
+    </docsDscr>
+    <studyDscr>
+        <citation>
+            <titlStmt>
+                <titl>Post-Acute Care Supplement (PACS) Research Files, 2000-2010</titl>
+                <IDNo agency="ICPSR">34443</IDNo>
+                <IDNo agency="DataCite">https://doi.org/10.3886/ICPSR34443.v1</IDNo>
+            </titlStmt>
+            <respStmt>
+                <AuthEnty affiliation="SPHERE Institute">MaCurdy, Thomas</AuthEnty>
+                <AuthEnty affiliation="Acumen, LLC">Shafrin, Jason</AuthEnty>
+            </respStmt>
+            <prodStmt>
+                <fundAg>United States Department of Health and Human Services. Agency for Healthcare Research and Quality</fundAg>
+                <grantNo agency="United States Department of Health and Human Services. Agency for Healthcare Research and Quality">1R24HS019661-01</grantNo>
+            </prodStmt>
+            <distStmt>
+                <distrbtr abbr="ICPSR" affiliation="Institute for Social Research, University of Michigan">Inter-university Consortium for Political and Social Research</distrbtr>
+                <distDate date="2013-02-28">February 28, 2013</distDate>
+            </distStmt>
+            <verStmt>
+                <version date="2013-02-28">V1</version>
+                <notes>2018-02-15 The citation of this study may have changed due to the new version control system that has been implemented. The previous citation was: &lt;ul&gt;&lt;li&gt;MaCurdy, Thomas, and Jason Shafrin. Post-Acute Care Supplement (PACS) Research Files, 2000-2010. ICPSR34443-v1. Burlingame, CA: Medicare/Medicaid Research Information Center (MedRIC) [distributor], 2013-02-28. http://doi.org/10.3886/ICPSR34443.v1&lt;/li&gt;&lt;/ul&gt;</notes>
+            </verStmt>
+            <biblCit>MaCurdy, Thomas, and Shafrin, Jason. Post-Acute Care Supplement (PACS) Research Files, 2000-2010. Medicare/Medicaid Research Information Center (MedRIC) [distributor], 2013-02-28. https://doi.org/10.3886/ICPSR34443.v1</biblCit>
+            <holdings URI="https://doi.org/10.3886/ICPSR34443.v1"></holdings>
+        </citation>
+        <stdyInfo>
+            <subject>
+                <keyword vocab="ICPSR thesaurus">Medicaid</keyword>
+                <keyword vocab="ICPSR thesaurus">Medicare</keyword>
+                <keyword vocab="ICPSR thesaurus">health care</keyword>
+                <keyword vocab="ICPSR thesaurus">health care services</keyword>
+                <keyword vocab="ICPSR thesaurus">home health care</keyword>
+                <keyword vocab="ICPSR thesaurus">nursing homes</keyword>
+            </subject>
+            <abstract contentType="abstract">&lt;p&gt;&lt;strong&gt;Overview.&lt;/strong&gt; The Post-Acute Care Supplement (PACS) files were developed from two administrative data sets that capture assessments at multiple points in post-acute care: the Outcome and Assessment Information Set (OASIS) Summary File (OASF): 2000-2010, which covers home health care, and the Long-Term Care Annual Summary File (LTCASF): 2000-2010, which covers nursing homes. Annual files were developed for the period 2000 to 2010 that summarize health conditions, functional status, and care patterns into one observation per beneficiary per year.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Data Access.&lt;/strong&gt; These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com).&lt;/p&gt;</abstract>
+            <abstract contentType="mixed">COMMON SCALES: ADL Functionality Scale - Similar to Katz Basic Activities of Daily Living Scale.  IADL Functionality Scale - Similar to the Lawton Instrumental Activities of Daily Living Scale.</abstract>
+            <sumDscr>
+                <timePrd event="start" cycle="C1" date="2000-01-01">2000-01-01</timePrd>
+                <timePrd event="end" cycle="C1" date="2010-12-31">2010-12-31</timePrd>
+                <collDate event="start" date="2012">2012</collDate>
+                <geogCover>United States</geogCover>
+                <geogUnit>ZIP Code.</geogUnit>
+                <anlyUnit>Individual</anlyUnit>
+                <universe>For OASF, all patients in Medicare-certified home health agencies. For LTCASF, all patients in Medicare-certified or Medicaid-certified long-term care facilities.</universe>
+                <dataKind>administrative records data</dataKind>
+            </sumDscr>
+        </stdyInfo>
+        <method>
+            <dataColl>
+                <sampProc>Each year of OASF data uses the universe of OASIS data.  Each year of LTCASF data uses the universe of Minimum Data Set (MDS) data.</sampProc>
+                <sources>
+                    <dataSrc>Long-Term Care Minimum Data Set (MDS): 2000-2010</dataSrc>
+                    <dataSrc>Outcome Assessment Information Set (OASIS): 2000-2010</dataSrc>
+                </sources>
+            </dataColl>
+        </method>
+        <dataAccs>
+            <useStmt>
+                <conditions>ICPSR Terms of Use <ExtLink URI="https://www.icpsr.umich.edu/web/ICPSR/studies/34443/terms"</ExtLink></conditions>
+                <restrctn>These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com).</restrctn>
+                <specPerm>Visit https://doi.org/10.3886/ICPSR34443.v1 to apply for access to restricted data.</specPerm>
+            </useStmt>
+        </dataAccs>
+    </studyDscr>
+</codeBook>
