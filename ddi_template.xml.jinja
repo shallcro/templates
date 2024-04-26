@@ -5,8 +5,8 @@
 <codeBook
     xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xmlns="ddi:codebook:2_5" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    {% The 'docsDscr' section describes the metadata record itself %}
-    <docsDscr>
+    {% The 'docDscr' section describes the metadata record itself %}
+    <docDscr>
     <citation>
 
     {# Title of metadata record #}
@@ -27,10 +27,10 @@
         <copyright>ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License <ExtLink URI="http://creativecommons.org/licenses/by-nc/3.0/us/"/></copyright>
     </prodStmt>
     </citation>
-    </docsDscr>
+    </docDscr>
 
     {# The 'studyDscr' section describes the study itself #}
-    <studyDscr>
+    <stdyDscr>
 
     {# the citation section includes metadata relevant to citations #}
     <citation>
@@ -62,7 +62,7 @@
 
     {# Principal Investigators: include affiliation, if relevant #}
     {% if study.creator %}
-        <respStmt>
+        <rspStmt>
         {% for creator in study.creator %}                    
             {% if creator.type == 'foaf:Person' %}
                 {% if creator.affiliation %}
@@ -110,6 +110,15 @@
         </distStmt>
     {% endif %}
 
+    {# Series #}
+    {% if series %}
+        <serStmt>
+        {% for s in series %}
+            <serName>{{ s.title[0] | trim }}</serName>
+        {% endfor %}
+        </serStmt>
+    {% endif %}
+ 
     {# Version #}
     <verStmt>
     {% if study.version %}
@@ -133,16 +142,7 @@
     {% if study.doi %}
         <holdings URI="{{ study.doi[0] }}"></holdings>
     {% endif %}
-
-    {# Series #}
-    {% if series %}
-        <serStmt>
-        {% for s in series %}
-            <serName>{{ s.title[0] | trim }}</serName>
-        {% endfor %}
-        </serStmt>
-    {% endif %}
-    </citation>
+   </citation>
 
     {# The stdyInfo section includes study-level metadata beyond citations#}
     <stdyInfo>
@@ -260,13 +260,6 @@
     <method>
     <dataColl>
 
-    {# Collection Mode #}
-    {% if study.collectionMode %}
-        {% for mode in study.collectionMode %}
-            <collMode>{{ mode }}</collMode>
-        {% endfor %}
-    {% endif %}
-
     {# Time Method #}
     {% if study.timeMethod %}
         {% for method in study.timeMethod %}
@@ -279,6 +272,13 @@
         <sampProc>{{ study.samplingProcedure[0] | strip_tags | trim | replace('"', "&quot;") | replace("'", "&apos;") | escape }}</sampProc>
     {% endif %}
 
+    {# Collection Mode #}
+    {% if study.collectionMode %}
+        {% for mode in study.collectionMode %}
+            <collMode>{{ mode }}</collMode>
+        {% endfor %}
+    {% endif %}
+
     {# Data Sources #}
     {% if study.source %}
         <sources>
@@ -289,13 +289,6 @@
     {% endif %}
     </dataColl>
 
-    {# Response Rates #}
-    {% if study.responseRate %}
-        <anlyInfo>
-            <respRate>{{ study.responseRate[0] | strip_tags | trim | replace('"', "&quot;") | replace("'", "&apos;") | escape }}</respRate>
-        </anlyInfo>
-    {% endif %}
-
     {# WEIGHT: INCLUDE HERE ONCE STAGING DATABASE IS UPDATED #}
 
     {# Collection Notes #}
@@ -303,6 +296,13 @@
         {% for collNote in study.collectionNotes | sort(attribute="order") | unique(attribute="order")%}
             <notes>{{ collNote.note | strip_tags | trim | replace('"', "&quot;") | replace("'", "&apos;") | escape }}</notes>
         {% endfor %}
+    {% endif %}
+
+    {# Response Rates #}
+    {% if study.responseRate %}
+        <anlyInfo>
+            <respRate>{{ study.responseRate[0] | strip_tags | trim | replace('"', "&quot;") | replace("'", "&apos;") | escape }}</respRate>
+        </anlyInfo>
     {% endif %}
     </method>
 
@@ -318,11 +318,6 @@
     {# The Use Statement section provides information on conditions and restrictions related to data use #}
     <useStmt>
 
-    {# License #}
-    {% if study.licenseURI %}
-        <conditions>ICPSR Terms of Use <ExtLink URI="{{ study.licenseURI[0] }}"</ExtLink></conditions>
-    {% endif %}
-
     {# Restrictions #}
 
     {% if study.membershipRequired[0] == "true" %}
@@ -337,12 +332,17 @@
         {% else %}
             {% set restrictionNote = restrictionNote ~ " Special restrictions apply to one or more files." %}
         {% endif %}
+
+        {% if study.doi %}
+            {% set restrictionNote = restrictionNote ~ " Visit " ~ study.doi[0] ~ " to apply for access to restricted data." %}
+        {% endif %}
     {% endif %}
 
     <restrctn>{{ restrictionNote }}</restrctn>
 
-    {% if study.restricted[0] and study.doi %}
-        <specPerm>Visit {{ study.doi[0] }} to apply for access to restricted data.</specPerm>
+    {# License #}
+    {% if study.licenseURI %}
+        <conditions>ICPSR Terms of Use <ExtLink URI="{{ study.licenseURI[0] }}"/></conditions>
     {% endif %}
 
     </useStmt>
@@ -353,9 +353,10 @@
 
     {% if dataset %}
         {% for dataFile in dataset %}
+            {% set fileID = "ICPSR-" ~ dataFile.identifier[0] %}
             <fileDscr>
                 <fileTxt>
-                    <fileName ID="{{ dataFile.identifier[0] }}">{{ dataFile.title[0] }}</fileName>
+                    <fileName ID="{{ fileID }}</fileName>
                 </fileTxt>
             </fileDscr>
         {% endfor %}

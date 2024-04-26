@@ -1,6 +1,6 @@
 <codeBook
     xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xmlns="ddi:codebook:2_5" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <docsDscr>
+    <docDscr>
         <citation>
             <titlStmt>
                 <titl>Metadata record for Teacher Victimization: Understanding Prevalence, Causation, and Negative Consequences in a Large Metropolitan Area in the Southwestern United States, 2016-2019</titl>
@@ -11,18 +11,18 @@
                 <copyright>ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License <ExtLink URI="http://creativecommons.org/licenses/by-nc/3.0/us/"/></copyright>
             </prodStmt>
         </citation>
-    </docsDscr>
-    <studyDscr>
+    </docDscr>
+    <stdyDscr>
         <citation>
             <titlStmt>
                 <titl>Teacher Victimization: Understanding Prevalence, Causation, and Negative Consequences in a Large Metropolitan Area in the Southwestern United States, 2016-2019</titl>
                 <IDNo agency="ICPSR">37295</IDNo>
                 <IDNo agency="DataCite">https://doi.org/10.3886/ICPSR37295.v2</IDNo>
             </titlStmt>
-            <respStmt>
+            <rspStmt>
                 <AuthEnty affiliation="University of Texas at San Antonio">Moon, Byongook</AuthEnty>
                 <AuthEnty affiliation="University of Texas at San Antonio">Enriquez, Roger</AuthEnty>
-            </respStmt>
+            </rspStmt>
             <prodStmt>
                 <fundAg>United States Department of Justice. Office of Justice Programs. National Institute of Justice</fundAg>
                 <grantNo agency="United States Department of Justice. Office of Justice Programs. National Institute of Justice">2015-CK-BX-0019</grantNo>
@@ -71,9 +71,9 @@
         </stdyInfo>
         <method>
             <dataColl>
-                <collMode>web-based survey</collMode>
                 <timeMeth>Longitudinal</timeMeth>
                 <sampProc>To collect a representative sample of teachers in the region, a stratified multistage cluster sampling design was used. First, the sampling frame was constructed by obtaining the lists of middle and high school teachers provided by each school district and/or collected from publicly available school websites. Second, approximately 10 to 30 teachers in each school were randomly selected based on the number of teachers listed at the school. For example, up to 30 teachers were randomly selected in a high school with at least 100 faculty members, while around 10 teachers were selected in a middle school with \napproximately 30 to 40 teachers.</sampProc>
+                <collMode>web-based survey</collMode>
             </dataColl>
             <notes>Users should note that dataset 1 (Waves 1 and 2 Data) should be attributed to both Byongook Moon and Roger Enriquez while dataset 2 (Waves 3 and 4 Data) should be attributed to only Byongook Moon</notes>
         </method>
@@ -82,25 +82,24 @@
                 <accsPlac URI="https://doi.org/10.3886/ICPSR37295.v2">Inter-university Consortium for Political and Social Research</accsPlac>
             </setAvail>
             <useStmt>
-                <conditions>ICPSR Terms of Use <ExtLink URI="https://www.icpsr.umich.edu/web/ICPSR/studies/37295/terms"</ExtLink></conditions>
-                <restrctn>Available to the general public. Access to these data is restricted. Users interested in obtaining these data must complete a Restricted Data Use Agreement, specify the reasons for the request, and obtain IRB approval or notice of exemption for their research.</restrctn>
-                <specPerm>Visit https://doi.org/10.3886/ICPSR37295.v2 to apply for access to restricted data.</specPerm>
+                <restrctn>Available to the general public. Access to these data is restricted. Users interested in obtaining these data must complete a Restricted Data Use Agreement, specify the reasons for the request, and obtain IRB approval or notice of exemption for their research. Visit https://doi.org/10.3886/ICPSR37295.v2 to apply for access to restricted data.</restrctn>
+                <conditions>ICPSR Terms of Use <ExtLink URI="https://www.icpsr.umich.edu/web/ICPSR/studies/37295/terms"/></conditions>                
             </useStmt>
         </dataAccs>
-    </studyDscr>
+    </stdyDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="37295-0000">Study-Level Files</fileName>
+            <fileName ID="ICPSR-37295-0000">Study-Level Files</fileName>
         </fileTxt>
     </fileDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="37295-0002">Waves 3 and 4 Data</fileName>
+            <fileName ID="ICPSR-37295-0002">Waves 3 and 4 Data</fileName>
         </fileTxt>
     </fileDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="37295-0001">Waves 1 and 2 Data</fileName>
+            <fileName ID="ICPSR-37295-0001">Waves 1 and 2 Data</fileName>
         </fileTxt>
     </fileDscr>
 </codeBook>

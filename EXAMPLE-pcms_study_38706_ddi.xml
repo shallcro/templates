@@ -1,6 +1,6 @@
 <codeBook
     xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xmlns="ddi:codebook:2_5" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <docsDscr>
+    <docDscr>
         <citation>
             <titlStmt>
                 <titl>Metadata record for Early Care and Education Leadership Study (ExCELS), United States, 2022</titl>
@@ -11,8 +11,8 @@
                 <copyright>ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License <ExtLink URI="http://creativecommons.org/licenses/by-nc/3.0/us/"/></copyright>
             </prodStmt>
         </citation>
-    </docsDscr>
-    <studyDscr>
+    </docDscr>
+    <stdyDscr>
         <citation>
             <titlStmt>
                 <titl>Early Care and Education Leadership Study (ExCELS), United States, 2022</titl>
@@ -20,9 +20,9 @@
                 <IDNo agency="ICPSR">38706</IDNo>
                 <IDNo agency="DataCite">https://doi.org/10.3886/ICPSR38706.v3</IDNo>
             </titlStmt>
-            <respStmt>
+            <rspStmt>
                 <AuthEnty>United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation</AuthEnty>
-            </respStmt>
+            </rspStmt>
             <prodStmt>
                 <fundAg>United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation</fundAg>
             </prodStmt>
@@ -76,41 +76,40 @@
                 <timeMeth>telephone interview</timeMeth>
                 <timeMeth>web-based survey</timeMeth>
                 <sampProc>&lt;p&gt;The Early Care and Education Leadership Study (ExCELS) used a purposive sample. The research team selected four states to sample centers for the descriptive study and aimed to recruit at least 120 centers within those states for the study. The purposive sample focused on centers funded by Head Start or CCDF that were located in urban and suburban areas. A center was defined as a specific physical location with at least two classrooms primarily providing early care and education (ECE) services for children from birth through age 5 (not yet in kindergarten). States were selected using the following criteria:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Strength of administrator qualifications in licensing, credentialing, and Quality Rating and Improvement System (QRIS) criteria, as of June 2018&lt;/li&gt; &lt;li&gt;Funding to support access and quality&lt;/li&gt; &lt;li&gt;Stringency of licensing requirements as minimum standards for quality to reflect the regulatory environment&lt;/li&gt; &lt;li&gt;Geographic diversity&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Once states were selected for the study based on sampling criteria, sampling lists of early care and education (ECE) centers were constructed by pulling information from the Head Start Enterprise System, public websites about community-based centers, and a state Department of Education's list of centers in that state. Researchers conducted varying levels of outreach to over 3,000 centers to ultimately have 132 eligible, participating centers.&lt;/p&gt; &lt;p&gt;Once centers were deemed eligible, survey respondents were selected, including staff in formal manager roles (center directors or managers) who were responsible for daily operations and the education program in each center and all teaching staff from each center in classrooms serving children from birth through age 5.&lt;/p&gt; &lt;p&gt;One to three managers per center were selected to receive the center manager survey, depending upon center size. The manager had to spend some time at the center to be eligible to complete the survey. All teaching staff in classrooms serving children from birth through age 5, including lead, head, or co-teachers and assistant teachers, were selected for the teaching staff survey.&lt;/p&gt;</sampProc>
-            </dataColl>
+            </dataColl>            
+            <notes>&lt;p&gt;&lt;strong&gt;Acknowledgments:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Gretchen Kirby, Project Director, Mathematica&lt;/p&gt; &lt;p&gt;Lizabeth Malone, Co-Project Investigator, Mathematica&lt;/p&gt; &lt;p&gt;Anne Douglass, Co-Project Investigator, Institute for Early Education Leadership and Innovation at the University of Massachusetts Boston&lt;/p&gt;</notes>
             <anlyInfo>
                 <respRate>&lt;p&gt;The Early Care and Education Leadership Study (ExCELS) descriptive study sample included all 132 recruited, eligible centers that completed a staffing structure and leadership positions (SSLP) interview. Not all centers completed all survey data collection activities. Eight centers withdrew from further data collection after the SSLP interview and before staff could be invited to complete the surveys. Two additional centers withdrew from data collection after the center manager survey data collection. None of these 10 centers provided teaching staff rosters. Therefore, 122 centers participated in all data collection activities (that is, completed the SSLP interview and received invitations to the center manager and teaching staff surveys). To examine the technical properties of the leadership item set, the research team established an analytic complete target for a center of at least 50 percent for the response rate on the teaching staff surveys (with at least two completed teaching staff surveys) and at least the primary site leader (PSL) completing a center manager survey. This goal was met by 110 centers.&lt;/p&gt; &lt;p&gt;Across all centers that received survey invitations, the response rate was 92 percent for center managers and 88 percent for teaching staff. Considering the response rates within a center, center manager surveys were completed in 121 centers--107 centers had all center managers complete a survey, with 119 having at least the PSL complete the survey. Teaching staff surveys were completed in 122 centers--94 centers had 80 percent or more of their teaching staff complete a survey (with at least two completes). At least 50 percent of teaching staff completed a survey in 119 centers.&lt;/p&gt;</respRate>
             </anlyInfo>
-            <notes>&lt;p&gt;&lt;strong&gt;Acknowledgments:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Gretchen Kirby, Project Director, Mathematica&lt;/p&gt; &lt;p&gt;Lizabeth Malone, Co-Project Investigator, Mathematica&lt;/p&gt; &lt;p&gt;Anne Douglass, Co-Project Investigator, Institute for Early Education Leadership and Innovation at the University of Massachusetts Boston&lt;/p&gt;</notes>
         </method>
         <dataAccs>
             <setAvail media="online">
                 <accsPlac URI="https://doi.org/10.3886/ICPSR38706.v3">Inter-university Consortium for Political and Social Research</accsPlac>
             </setAvail>
             <useStmt>
-                <conditions>ICPSR Terms of Use <ExtLink URI="https://www.icpsr.umich.edu/web/ICPSR/studies/38706/terms"</ExtLink></conditions>
-                <restrctn>Available to the general public. Access to these data requires an application and signed Restricted Data Use Agreement. Details, including the Restricted Data Use Agreement, are provided via the online application.</restrctn>
-                <specPerm>Visit https://doi.org/10.3886/ICPSR38706.v3 to apply for access to restricted data.</specPerm>
+                <restrctn>Available to the general public. Access to these data requires an application and signed Restricted Data Use Agreement. Details, including the Restricted Data Use Agreement, are provided via the online application. Visit https://doi.org/10.3886/ICPSR38706.v3 to apply for access to restricted data.</restrctn>
+                <conditions>ICPSR Terms of Use <ExtLink URI="https://www.icpsr.umich.edu/web/ICPSR/studies/38706/terms"/></conditions>                
             </useStmt>
         </dataAccs>
     </stdyDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="38706-0000">Study-Level Files</fileName>
+            <fileName ID="ICPSR-38706-0000">Study-Level Files</fileName>
         </fileTxt>
     </fileDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="38706-0003">Teaching Staff Survey Data</fileName>
+            <fileName ID="ICPSR-38706-0003">Teaching Staff Survey Data</fileName>
         </fileTxt>
     </fileDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="38706-0001">Center Level Data</fileName>
+            <fileName ID="ICPSR-38706-0001">Center Level Data</fileName>
         </fileTxt>
     </fileDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="38706-0002">Center Manager Survey Data</fileName>
+            <fileName ID="ICPSR-38706-0002">Center Manager Survey Data</fileName>
         </fileTxt>
     </fileDscr>
 </codeBook>

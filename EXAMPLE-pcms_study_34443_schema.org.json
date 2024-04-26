@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "identifier": "https://doi.org/10.3886/ICPSR34443.v1",
+    "name": "Post-Acute Care Supplement (PACS) Research Files, 2000-2010",
+    "version": "V1",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "MaCurdy, Thomas",
+            "affiliation": "SPHERE Institute"
+        },
+        {
+            "@type": "Person",
+            "name": "Shafrin, Jason",
+            "affiliation": "Acumen, LLC"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Inter-university Consortium for Political and Social Research"
+    },
+    "datePublished": "2013-02-28",
+    "citation": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">MaCurdy, Thomas, and Shafrin, Jason. Post-Acute Care Supplement (PACS) Research Files, 2000-2010. Medicare/Medicaid Research Information Center (MedRIC) [distributor], 2013-02-28. https://doi.org/10.3886/ICPSR34443.v1</div>\n</div>",
+    "funding": {
+        "@type": "MonetaryGrant",
+        "funder": {
+            "@type": "Organization",
+            "name": "United States Department of Health and Human Services. Agency for Healthcare Research and Quality"
+        },
+        "identifier": "1R24HS019661-01"
+    },
+    "description": "<p><strong>Overview.</strong> The Post-Acute Care Supplement (PACS) files were developed from two administrative data sets that capture assessments at multiple points in post-acute care: the Outcome and Assessment Information Set (OASIS) Summary File (OASF): 2000-2010, which covers home health care, and the Long-Term Care Annual Summary File (LTCASF): 2000-2010, which covers nursing homes. Annual files were developed for the period 2000 to 2010 that summarize health conditions, functional status, and care patterns into one observation per beneficiary per year.</p>\n<p><strong>Data Access.</strong> These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com).</p>",
+    "keyword": [
+        "Medicaid",
+        "Medicare",
+        "health care",
+        "health care services",
+        "home health care",
+        "nursing homes"
+    ],
+    "spatialCoverage": "United States",
+    "temporalCoverage": "2000-01-01/2010-12-31",
+    "license": "https://www.icpsr.umich.edu/web/ICPSR/studies/34443/terms",
+    "conditionsOfAccess": "Available to ICPSR member institutions. These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com). Visit https://doi.org/10.3886/ICPSR34443.v1 to apply for access to restricted data."
+}
+

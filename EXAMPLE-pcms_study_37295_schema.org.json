@@ -1,0 +1,83 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "identifier": "https://doi.org/10.3886/ICPSR37295.v2",
+    "name": "Teacher Victimization: Understanding Prevalence, Causation, and Negative Consequences in a Large Metropolitan Area in the Southwestern United States, 2016-2019",
+    "version": "V2",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Moon, Byongook",
+            "affiliation": "University of Texas at San Antonio"
+        },
+        {
+            "@type": "Person",
+            "name": "Enriquez, Roger",
+            "affiliation": "University of Texas at San Antonio"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Inter-university Consortium for Political and Social Research"
+    },
+    "datePublished": "2023-03-16",
+    "citation": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Moon, Byongook, and Enriquez, Roger. Teacher Victimization: Understanding Prevalence, Causation, and Negative Consequences in a Large Metropolitan Area in the Southwestern United States, 2016-2019. Inter-university Consortium for Political and Social Research [distributor], 2023-03-16. https://doi.org/10.3886/ICPSR37295.v2</div>\n</div>",
+    "funding": [
+        {
+            "@type": "MonetaryGrant",
+            "funder": {
+                "@type": "Organization",
+                "name": "United States Department of Justice. Office of Justice Programs. National Institute of Justice"
+            },
+            "identifier": "2015-CK-BX-0019"
+        },
+        {
+            "@type": "MonetaryGrant",
+            "funder": {
+                "@type": "Organization",
+                "name": "United States Department of Justice. Office of Justice Programs. National Institute of Justice"
+            },
+            "identifier": "2017-CK-BX-0010"
+        }
+    ],
+    "description": "<p>\nFor Waves 1 and 2 (2016-2017), the two-year longitudinal research examined the prevalence of seven different types of teacher victimization, its negative consequences among victimized teachers, and predictors of aggression directed against teachers. The research, using a stratified multistage cluster sampling design, surveyed 1,628 middle and high school teachers in 14 school districts, located in a large metropolitan area in the southwest region of the United States. Two waves of the longitudinal research collected 1) teachers' socio-demographic factors, 2) teacher classroom management styles, and 3) school climate factors which are related to teacher victimization. Also, the data contained characteristics of victimization, school responses to teacher victimization, and negative consequences of teacher victimization.\n</p>\n<p>\nWaves 3 and 4 (2018-2019) explored the trends and patterns of different types of teacher victimization focusing on victimizations via verbal abuse and non-physical contact aggression.  They also examined the percentage of teachers reporting victimizations to school administrators, school responses to teacher victimization, and satisfaction with school handling of victimization incidents.  Finally, Waves 3 and 4 investigated the effect of procedural justice on 1) victimized teachers' satisfaction with school responses, 2) physical distress, and 3) emotional distress.\n</p>\n<p>\n<strong>Users should refer to the data collection notes field below for additional information about study citation.</strong>\n</p>",
+    "keyword": [
+        "aggression",
+        "high schools",
+        "middle schools",
+        "school violence",
+        "teachers",
+        "victimization"
+    ],
+    "spatialCoverage": [
+        "Southwestern United States",
+        "United States"
+    ],
+    "temporalCoverage": "2016-2019",
+    "license": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/terms",
+    "conditionsOfAccess": "Available to the general public. Access to these data is restricted. Users interested in obtaining these data must complete a Restricted Data Use Agreement, specify the reasons for the request, and obtain IRB approval or notice of exemption for their research. Visit https://doi.org/10.3886/ICPSR37295.v2 to apply for access to restricted data.",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Study-Level Files",
+            "identifier": "37295-0000",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/versions/V2/datasets/0/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Waves 1 and 2 Data",
+            "identifier": "37295-0001",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/versions/V2/datasets/1/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Waves 3 and 4 Data",
+            "identifier": "37295-0002",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/versions/V2/datasets/2/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        }
+    ]
+}
+

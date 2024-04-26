@@ -1,0 +1,66 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "identifier": "https://doi.org/10.3886/ICPSR37901.v1",
+    "name": "Survey of Consumer Attitudes and Behavior, January 2017",
+    "alternateName": "Surveys of Consumers",
+    "version": "V1",
+    "creator": [
+        {
+            "@type": "Organization",
+            "name": "University of Michigan. Survey Research Center. Economic Behavior Program"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Inter-university Consortium for Political and Social Research"
+    },
+    "datePublished": "2023-03-30",
+    "citation": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">University of Michigan. Survey Research Center. Economic Behavior Program. Survey of Consumer Attitudes and Behavior, January 2017.  [distributor], 2023-03-30. https://doi.org/10.3886/ICPSR37901.v1</div>\n</div>",
+    "description": "<p>The Survey of Consumer Attitudes and Behavior series (also known as the Surveys of Consumers) was undertaken to measure changes in consumer attitudes and expectations, to understand why such changes occur, and to evaluate how they relate to consumer decisions to save, borrow, or make discretionary purchases. The data regularly include the Index of Consumer Sentiment, the Index of Current Economic Conditions, and the Index of Consumer Expectations. Since the 1940s, these surveys have been produced quarterly through 1977 and monthly thereafter.</p>\n<p>The surveys conducted in 2017 focused on topics such as evaluations and expectations about personal finances, employment, price changes, and the national business situation. Opinions were collected regarding respondents' appraisals of present market conditions for purchasing houses, automobiles, computers, and other durables. Also explored in this survey, were respondents'  types of savings and financial investments, loan use, family income, and retirement planning. </p>\n<p>Other topics in this series typically include ownership, lease, and use of automobiles, respondents' use of personal computers at home and in the office, and respondents' familiarity with and use of the internet. Demographic information includes ethnic origin, sex, age, marital status, and education.</p>",
+    "keyword": [
+        "consumer attitudes",
+        "consumer expectations",
+        "consumer expenditures",
+        "economic policy",
+        "financial planning",
+        "government",
+        "home ownership",
+        "household expenditures",
+        "household income",
+        "interest rates",
+        "investments",
+        "national economy",
+        "retirement",
+        "stock markets",
+        "unemployment"
+    ],
+    "spatialCoverage": "United States",
+    "temporalCoverage": "2017-01",
+    "license": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/terms",
+    "conditionsOfAccess": "Available to ICPSR member institutions. This data collection may not be used for any purpose other than statistical reporting and analysis. Use of these data to learn the identity of any person or establishment is prohibited. To protect respondent privacy, some of the data files in this collection are restricted from general dissemination. To obtain these restricted files researchers must agree to the terms and conditions of a Restricted Data Use Agreement. Visit https://doi.org/10.3886/ICPSR37901.v1 to apply for access to restricted data.",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Study-Level Files",
+            "identifier": "37901-0000",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/datasets/0/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Public-Use Data",
+            "identifier": "37901-0001",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/datasets/1/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Restricted-Use Data",
+            "identifier": "37901-0002",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/datasets/2/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        }
+    ]
+}
+

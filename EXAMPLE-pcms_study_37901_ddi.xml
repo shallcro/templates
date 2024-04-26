@@ -1,6 +1,6 @@
 <codeBook
     xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xmlns="ddi:codebook:2_5" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <docsDscr>
+    <docDscr>
         <citation>
             <titlStmt>
                 <titl>Metadata record for Survey of Consumer Attitudes and Behavior, January 2017</titl>
@@ -11,8 +11,8 @@
                 <copyright>ICPSR metadata records are licensed under a Creative Commons Attribution-Noncommercial 3.0 United States License <ExtLink URI="http://creativecommons.org/licenses/by-nc/3.0/us/"/></copyright>
             </prodStmt>
         </citation>
-    </docsDscr>
-    <studyDscr>
+    </docDscr>
+    <stdyDscr>
         <citation>
             <titlStmt>
                 <titl>Survey of Consumer Attitudes and Behavior, January 2017</titl>
@@ -20,9 +20,9 @@
                 <IDNo agency="ICPSR">37901</IDNo>
                 <IDNo agency="DataCite">https://doi.org/10.3886/ICPSR37901.v1</IDNo>
             </titlStmt>
-            <respStmt>
+            <rspStmt>
                 <AuthEnty>University of Michigan. Survey Research Center. Economic Behavior Program</AuthEnty>
-            </respStmt>
+            </rspStmt>
             <distStmt>
                 <distrbtr abbr="ICPSR" affiliation="Institute for Social Research, University of Michigan">Inter-university Consortium for Political and Social Research</distrbtr>
                 <distDate date="2023-03-30">March 30, 2023</distDate>
@@ -71,10 +71,10 @@
             </sumDscr>
         </stdyInfo>
         <method>
-            <dataColl>
-                <collMode>computer-assisted telephone interview (CATI)</collMode>
+            <dataColl>                
                 <timeMeth>Longitudinal: Trend / Repeated Cross-section</timeMeth>
                 <sampProc>National sample of telephone numbers from cell (RDD) sampling frame</sampProc>
+                <collMode>computer-assisted telephone interview (CATI)</collMode>
             </dataColl>
             <notes>Information on the Index of Consumer Sentiment, the Index of Current Economic Conditions, and the Index of Consumer Expectations and how they were created can be found in the P.I. Codebook</notes>
             <notes>Additional information on the Surveys of Consumers can be found by visiting the &lt;a href=&quot;http://www.sca.isr.umich.edu/&quot;&gt; Surveys of Consumers Website.&lt;/a&gt;</notes>
@@ -83,26 +83,25 @@
             <setAvail media="online">
                 <accsPlac URI="https://doi.org/10.3886/ICPSR37901.v1">Inter-university Consortium for Political and Social Research</accsPlac>
             </setAvail>
-            <useStmt>
-                <conditions>ICPSR Terms of Use <ExtLink URI="https://www.icpsr.umich.edu/web/ICPSR/studies/37901/terms"</ExtLink></conditions>
-                <restrctn>Available to ICPSR member institutions. This data collection may not be used for any purpose other than statistical reporting and analysis. Use of these data to learn the identity of any person or establishment is prohibited. To protect respondent privacy, some of the data files in this collection are restricted from general dissemination. To obtain these restricted files researchers must agree to the terms and conditions of a Restricted Data Use Agreement.</restrctn>
-                <specPerm>Visit https://doi.org/10.3886/ICPSR37901.v1 to apply for access to restricted data.</specPerm>
+            <useStmt>                
+                <restrctn>Available to ICPSR member institutions. This data collection may not be used for any purpose other than statistical reporting and analysis. Use of these data to learn the identity of any person or establishment is prohibited. To protect respondent privacy, some of the data files in this collection are restricted from general dissemination. To obtain these restricted files researchers must agree to the terms and conditions of a Restricted Data Use Agreement. Visit https://doi.org/10.3886/ICPSR37901.v1 to apply for access to restricted data.</restrctn>
+                <conditions>ICPSR Terms of Use <ExtLink URI="https://www.icpsr.umich.edu/web/ICPSR/studies/37901/terms"/></conditions>
             </useStmt>
         </dataAccs>
-    </studyDscr>
+    </stdyDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="37901-0000">Study-Level Files</fileName>
+            <fileName ID="ICPSR-37901-0000">Study-Level Files</fileName>
         </fileTxt>
     </fileDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="37901-0002">Restricted-Use Data</fileName>
+            <fileName ID="ICPSR-37901-0002">Restricted-Use Data</fileName>
         </fileTxt>
     </fileDscr>
     <fileDscr>
         <fileTxt>
-            <fileName ID="37901-0001">Public-Use Data</fileName>
+            <fileName ID="ICPSR-37901-0001">Public-Use Data</fileName>
         </fileTxt>
     </fileDscr>
 </codeBook>

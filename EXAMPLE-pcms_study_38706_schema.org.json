@@ -1,0 +1,77 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "identifier": "https://doi.org/10.3886/ICPSR38706.v3",
+    "name": "Early Care and Education Leadership Study (ExCELS), United States, 2022",
+    "alternateName": "ExCELS",
+    "version": "V3",
+    "creator": [
+        {
+            "@type": "Organization",
+            "name": "United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Inter-university Consortium for Political and Social Research"
+    },
+    "datePublished": "2024-01-16",
+    "citation": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation. Early Care and Education Leadership Study (ExCELS), United States, 2022. Inter-university Consortium for Political and Social Research [distributor], 2024-01-16. https://doi.org/10.3886/ICPSR38706.v3</div>\n</div>",
+    "funding": {
+        "@type": "MonetaryGrant",
+        "funder": {
+            "@type": "Organization",
+            "name": "United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation"
+        }
+    },
+    "description": "<p>The Early Care and Education Leadership Study (ExCELS) was funded by the Office of Planning, Research, and Evaluation within the Administration for Children and Families in the U.S. Department of Health and Human Services. The project team was led by Mathematica and the Institute for Early Education Leadership and Innovation at the University of Massachusetts Boston.</p>\n<p>The project included a descriptive study with the following goals: (1) establish a measure of early care and education (ECE) leadership in center-based settings that serve children birth through age five (not yet in kindergarten) that meets standards for reliability and validity to support its intended use and (2) examine empirical support for the associations among key constructs and outcomes in the theory of change of ECE leadership for quality improvement. Research questions focused on understanding the three key elements that define what leadership in center-based ECE settings looks like: (1) who leaders are, (2) what individuals bring to leadership, and (3) what ECE staff do as leaders.</p>\n<p>From February through July 2022, the study team recruited 132 ECE centers across four states that served children from birth through age 5 (who are not yet in kindergarten), and that were supported by Head Start grants or Child Care and Development Fund (CCDF) subsidies. From March through August 2022, the study team conducted phone interviews to collect center characteristics and learn about the center's staffing structure and leadership positions, and distributed surveys to center managers and teaching staff in recruited centers.</p>\n<p>The User's Guide for this study can be obtained by selecting \"Documentation Only\" from the Download tab on this study homepage. The User's Guide and all ExCELS documentation will download in one zip file.</p>",
+    "keyword": [
+        "Child Care and Development Fund",
+        "Head Start",
+        "child care",
+        "daycare",
+        "early childhood education",
+        "education",
+        "infants",
+        "leadership",
+        "preschool children",
+        "teachers",
+        "testing and measurement",
+        "toddlers"
+    ],
+    "spatialCoverage": "United States",
+    "temporalCoverage": "2022",
+    "license": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/terms",
+    "conditionsOfAccess": "Available to the general public. Access to these data requires an application and signed Restricted Data Use Agreement. Details, including the Restricted Data Use Agreement, are provided via the online application. Visit https://doi.org/10.3886/ICPSR38706.v3 to apply for access to restricted data.",
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Study-Level Files",
+            "identifier": "38706-0000",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/0/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Center Level Data",
+            "identifier": "38706-0001",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/1/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Center Manager Survey Data",
+            "identifier": "38706-0002",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/2/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Teaching Staff Survey Data",
+            "identifier": "38706-0003",
+            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/3/download/doc?path=/",
+            "encodingFormat": "application/zip"
+        }
+    ]
+}
+
