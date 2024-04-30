@@ -46,7 +46,7 @@
         <publisher>{{ study.distributor[0] }}</publisher>
 
     {# Version Date #}
-    <publicationYear>{{ (study.issued[0] if study.version[0] == 'V1' else study.modified[0]) | from_iso_date | format_date('%Y-%m-%d') }}</publicationYear>
+    <publicationYear>{{ (study.issued[0] if study.version[0] == 'V1' else study.modified[0]) | from_iso_date | format_date('%Y') }}</publicationYear>
 
    	{# Data Type #}
     {% if study.kindOfData %}
@@ -158,7 +158,7 @@
     {% endif %}
 
     </descriptions>
-	<geoLocations>
+	<geoLocations>    
 
 	{# Geographic Coverage #}
     {% for spatialTerm in study.spatial %}
@@ -167,7 +167,6 @@
     	</geoLocation>
     {% endfor %}
     </geoLocations>
-    
 
     {# Funding Agencies #}
     <fundingReferences>

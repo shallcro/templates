@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+	<identifier identifierType='DOI'>10.3886/ICPSR37295.v2</identifier>
+	<creators>
+		<creator>
+			<creatorName nameType="Personal">Moon, Byongook</creatorName>
+			<affiliation>University of Texas at San Antonio</affiliation>
+		</creator>
+		<creator>
+			<creatorName nameType="Personal">Enriquez, Roger</creatorName>
+			<affiliation>University of Texas at San Antonio</affiliation>
+		</creator>
+	</creators>
+	<titles>
+		<title xml:lang="en">Teacher Victimization: Understanding Prevalence, Causation, and Negative Consequences in a Large Metropolitan Area in the Southwestern United States, 2016-2019</title>
+	</titles>
+	<publisher>Inter-university Consortium for Political and Social Research</publisher>
+	<publicationYear>2023</publicationYear>
+	<resourceType resourceTypeGeneral="Dataset">survey data</resourceType>
+	<subjects>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">aggression</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">high schools</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">middle schools</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">school violence</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">teachers</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">victimization</subject>
+	</subjects>
+	<dates>
+		<date dateType="Valid">2016/2017</date>
+		<date dateType="Valid">2018/2019</date>
+		<date dateType="Collected" dateInformation="Wave 1">2016-03/2016-06</date>
+		<date dateType="Collected" dateInformation="Wave 2">2017-03</date>
+		<date dateType="Collected" dateInformation="Wave 3 (Spring)">2018</date>
+		<date dateType="Collected" dateInformation="Wave 4 (Spring)">2019</date>
+	</dates>
+	<alternateIdentifiers>
+    	<alternateIdentifier alternateIdentifierType='ICPSR Study Number'>37295</alternateIdentifier>
+	</alternateIdentifiers>
+	<version>V2</version>
+	<rightsList>
+		<rights rightsURI="https://www.icpsr.umich.edu/web/ICPSR/studies/37295/terms">ICPSR Terms of Use</rights>
+		<rights>Available to the general public. Access to these data is restricted. Users interested in obtaining these data must complete a Restricted Data Use Agreement, specify the reasons for the request, and obtain IRB approval or notice of exemption for their research. Visit https://doi.org/10.3886/ICPSR37295.v2 to apply for access to restricted data.</rights>
+	</rightsList>
+	<descriptions>
+		<description xml:lang="en" descriptionType="Abstract">&lt;p&gt;\nFor Waves 1 and 2 (2016-2017), the two-year longitudinal research examined the prevalence of seven different types of teacher victimization, its negative consequences among victimized teachers, and predictors of aggression directed against teachers. The research, using a stratified multistage cluster sampling design, surveyed 1,628 middle and high school teachers in 14 school districts, located in a large metropolitan area in the southwest region of the United States. Two waves of the longitudinal research collected 1) teachers' socio-demographic factors, 2) teacher classroom management styles, and 3) school climate factors which are related to teacher victimization. Also, the data contained characteristics of victimization, school responses to teacher victimization, and negative consequences of teacher victimization.\n&lt;/p&gt;\n&lt;p&gt;\nWaves 3 and 4 (2018-2019) explored the trends and patterns of different types of teacher victimization focusing on victimizations via verbal abuse and non-physical contact aggression.  They also examined the percentage of teachers reporting victimizations to school administrators, school responses to teacher victimization, and satisfaction with school handling of victimization incidents.  Finally, Waves 3 and 4 investigated the effect of procedural justice on 1) victimized teachers' satisfaction with school responses, 2) physical distress, and 3) emotional distress.\n&lt;/p&gt;\n&lt;p&gt;\n&lt;strong&gt;Users should refer to the data collection notes field below for additional information about study citation.&lt;/strong&gt;\n&lt;/p&gt;</description>
+		<description xml:lang="en" descriptionType="Methods">&lt;p&gt;\nFor Waves 1 and 2, the study utilized a longitudinal design, collecting data across two waves (2016, 2017). Teachers selected for the sample were invited to participate through a Qualtrics survey link. Participants who initially responded (n = 1,628) were recontacted for follow-up one year later (n = 1,317).\n&lt;/p&gt;\n&lt;p&gt;\nWaves 3 and 4 were a continuation of the study.  Among 1,317 Wave 2 participants, 1,239 were current teachers and 78 participants were former teachers who were excluded from Waves 3 and 4 research. In spring 2018, 1,101 among 1,239 eligible participants completed the Wave 3 web-based survey, having a retention rate of 89 percent from Wave 2 to Wave 3 research. Of 1,101 participants at Wave 3, 57 participants were former teachers and were not eligible for further participation at Wave 4 research. In spring 2019, 945 out of 1,044 participants continued to participate and completed the Wave 4 survey, yielding a retention rate of 91 percent from Wave 3 to Wave 4. For former teachers at each wave, separate question items were used to examine whether teacher victimization, school safety, and/or school's responses to teacher victimization were related to the career exit decision.\n&lt;/p&gt;</description>
+		<description xml:lang="en" descriptionType="Other">Users should note that dataset 1 (Waves 1 and 2 Data) should be attributed to both Byongook Moon and Roger Enriquez while dataset 2 (Waves 3 and 4 Data) should be attributed to only Byongook Moon</description>
+	</descriptions>
+	<geoLocations>
+		<geoLocation>
+        	<geoLocationPlace>United States</geoLocationPlace>
+    	</geoLocation>
+    	<geoLocation>
+        	<geoLocationPlace>Southwestern United States</geoLocationPlace>
+    	</geoLocation>
+	</geoLocations>
+	<fundingReferences>
+		<fundingReference>
+			<funderName>United States Department of Justice. Office of Justice Programs. National Institute of Justice</funderName>
+			<awardNumber>2015-CK-BX-0019</awardNumber>
+		</fundingReference>
+		<fundingReference>
+			<funderName>United States Department of Justice. Office of Justice Programs. National Institute of Justice</funderName>
+			<awardNumber>2017-CK-BX-0010</awardNumber>
+		</fundingReference>
+	</fundingReferences>
+</resource>

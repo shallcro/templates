@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+	<identifier identifierType='DOI'>10.3886/ICPSR34443.v1</identifier>
+	<creators>
+		<creator>
+			<creatorName nameType="Personal">MaCurdy, Thomas</creatorName>
+			<affiliation>SPHERE Institute</affiliation>
+		</creator>
+		<creator>
+			<creatorName nameType="Personal">Shafrin, Jason</creatorName>
+			<affiliation>Acumen, LLC</affiliation>
+		</creator>
+	</creators>
+	<titles>
+		<title xml:lang="en">Post-Acute Care Supplement (PACS) Research Files, 2000-2010</title>
+	</titles>
+	<publisher>Inter-university Consortium for Political and Social Research</publisher>
+	<publicationYear>2013</publicationYear>
+	<resourceType resourceTypeGeneral="Dataset">administrative records data</resourceType>
+	<subjects>
+		<subject subjectScheme="ICPSR thesaurus" xml:lang="en">Medicaid</subject>
+		<subject subjectScheme="ICPSR thesaurus" xml:lang="en">Medicare</subject>
+		<subject subjectScheme="ICPSR thesaurus" xml:lang="en">health care</subject>
+		<subject subjectScheme="ICPSR thesaurus" xml:lang="en">health care services</subject>
+		<subject subjectScheme="ICPSR thesaurus" xml:lang="en">home health care</subject>
+		<subject subjectScheme="ICPSR thesaurus" xml:lang="en">nursing homes</subject>
+	</subjects>
+	<dates>
+		<date dateType="Valid">2000-01-01/2010-12-31</date>
+		<date dateType="Collected">2012</date>
+	</dates>
+	<alternateIdentifiers>
+    	<alternateIdentifier alternateIdentifierType='ICPSR Study Number'>34443</alternateIdentifier>
+	</alternateIdentifiers>
+	<version>V1</version>
+	<rightsList>
+		<rights rightsURI="https://www.icpsr.umich.edu/web/ICPSR/studies/34443/terms">ICPSR Terms of Use</rights>
+		<rights>Available to the general public. These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com). Visit https://doi.org/10.3886/ICPSR34443.v1 to apply for access to restricted data.</rights>
+	</rightsList>
+	<descriptions>
+		<description xml:lang="en" descriptionType="Abstract">&lt;p&gt;&lt;strong&gt;Overview.&lt;/strong&gt; The Post-Acute Care Supplement (PACS) files were developed from two administrative data sets that capture assessments at multiple points in post-acute care: the Outcome and Assessment Information Set (OASIS) Summary File (OASF): 2000-2010, which covers home health care, and the Long-Term Care Annual Summary File (LTCASF): 2000-2010, which covers nursing homes. Annual files were developed for the period 2000 to 2010 that summarize health conditions, functional status, and care patterns into one observation per beneficiary per year.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Data Access.&lt;/strong&gt; These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com).&lt;/p&gt;</description>
+	</descriptions>
+	<geoLocations>
+		<geoLocation>
+        	<geoLocationPlace>United States</geoLocationPlace>
+    	</geoLocation>
+	</geoLocations>
+	<fundingReferences>
+		<fundingReference>
+			<funderName>United States Department of Health and Human Services. Agency for Healthcare Research and Quality</funderName>
+			<awardNumber>1R24HS019661-01</awardNumber>
+		</fundingReference>
+	</fundingReferences>
+</resource>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+	<identifier identifierType='DOI'>10.3886/ICPSR38706.v3</identifier>
+	<creators>
+		<creator>
+			<creatorName nameType="Organizational">United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation</creatorName>
+		</creator>
+	</creators>
+	<titles>
+		<title xml:lang="en">Early Care and Education Leadership Study (ExCELS), United States, 2022</title>
+		<title titleType="AlternativeTitle" xml:lang="en">ExCELS</title>
+	</titles>
+	<publisher>Inter-university Consortium for Political and Social Research</publisher>
+	<publicationYear>2024</publicationYear>
+	<resourceType resourceTypeGeneral="Dataset">survey data</resourceType>
+	<subjects>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">Child Care and Development Fund</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">Head Start</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">child care</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">daycare</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">early childhood education</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">education</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">infants</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">leadership</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">preschool children</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">teachers</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">testing and measurement</subject>
+        <subject subjectScheme="ICPSR thesaurus" xml:lang="en">toddlers</subject>
+	</subjects>
+	<dates>
+		<date dateType="Valid">2022</date>
+		<date dateType="Collected">2022-03-01/2022-08-31</date>
+	</dates>
+	<alternateIdentifiers>
+    	<alternateIdentifier alternateIdentifierType='ICPSR Study Number'>38706</alternateIdentifier>
+	</alternateIdentifiers>
+	<version>V3</version>
+	<rightsList>
+		<rights rightsURI="https://www.icpsr.umich.edu/web/ICPSR/studies/38706/terms">ICPSR Terms of Use</rights>
+		<rights>Available to the general public. Access to these data requires an application and signed Restricted Data Use Agreement. Details, including the Restricted Data Use Agreement, are provided via the online application. Visit https://doi.org/10.3886/ICPSR38706.v3 to apply for access to restricted data.</rights>
+	</rightsList>
+	<descriptions>
+		<description xml:lang="en" descriptionType="Abstract">&lt;p&gt;The Early Care and Education Leadership Study (ExCELS) was funded by the Office of Planning, Research, and Evaluation within the Administration for Children and Families in the U.S. Department of Health and Human Services. The project team was led by Mathematica and the Institute for Early Education Leadership and Innovation at the University of Massachusetts Boston.&lt;/p&gt; &lt;p&gt;The project included a descriptive study with the following goals: (1) establish a measure of early care and education (ECE) leadership in center-based settings that serve children birth through age five (not yet in kindergarten) that meets standards for reliability and validity to support its intended use and (2) examine empirical support for the associations among key constructs and outcomes in the theory of change of ECE leadership for quality improvement. Research questions focused on understanding the three key elements that define what leadership in center-based ECE settings looks like: (1) who leaders are, (2) what individuals bring to leadership, and (3) what ECE staff do as leaders.&lt;/p&gt; &lt;p&gt;From February through July 2022, the study team recruited 132 ECE centers across four states that served children from birth through age 5 (who are not yet in kindergarten), and that were supported by Head Start grants or Child Care and Development Fund (CCDF) subsidies. From March through August 2022, the study team conducted phone interviews to collect center characteristics and learn about the center&apos;s staffing structure and leadership positions, and distributed surveys to center managers and teaching staff in recruited centers.&lt;/p&gt; &lt;p&gt;The User&apos;s Guide for this study can be obtained by selecting &quot;Documentation Only&quot; from the Download tab on this study homepage. The User&apos;s Guide and all ExCELS documentation will download in one zip file.&lt;/p&gt;</description>
+		<description xml:lang="en" descriptionType="Methods">&lt;p&gt;Recruitment occurred through mass mailing of study materials to centers (March and May 2022) and individualized center recruitment via email and phone follow-up that went though July 2022.&lt;/p&gt; &lt;p&gt;During recruitment, primary site leaders (PSL) who expressed interest participated in a brief engagement interview via phone call to collect information on a center&apos;s characteristics and determine their center&apos;s study eligibility. Upon confirming eligibility and center participation, within one week of completing the engagement interview, a staffing structure and leadership positions (SSLP) interview was conducted with PSLs by phone. Rosters of all teaching staff in classrooms serving children from birth through age 5 and contact information for center managers were also collected at the end of each SSLP interview. SSLP interviews were conducted from March through August 2022.&lt;/p&gt; &lt;p&gt;At each center, up to three center managers received a center manager survey, a 25-minute self-administered, web-based survey with a paper option. Center manager respondents were provided with a token of appreciation for survey completion. All teaching staff included on the center&apos;s roster received a teaching staff survey, a 60-minute, self-administered, web-based survey, with a paper option. Teaching staff survey respondents were provided with both a pre-pay token of appreciation and one upon survey completion. Data collection for both the center manager and teaching staff survey was completed by the end of August 2022.&lt;/p&gt;</description>
+		<description xml:lang="en" descriptionType="Other">&lt;p&gt;&lt;strong&gt;Acknowledgments:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Gretchen Kirby, Project Director, Mathematica&lt;/p&gt; &lt;p&gt;Lizabeth Malone, Co-Project Investigator, Mathematica&lt;/p&gt; &lt;p&gt;Anne Douglass, Co-Project Investigator, Institute for Early Education Leadership and Innovation at the University of Massachusetts Boston&lt;/p&gt;</description>
+	</descriptions>
+	<geoLocations>
+		<geoLocation>
+        	<geoLocationPlace>United States</geoLocationPlace>
+    	</geoLocation>
+	</geoLocations>
+</resource>
