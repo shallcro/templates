@@ -1,0 +1,74 @@
+{
+	"context": "schema/icpsr_study_schema.json",
+	"version": "V1",
+	"version_date": "2013-02-28",
+	"original_release_date": "2013-02-28",
+	"title": "Post-Acute Care Supplement (PACS) Research Files, 2000-2010",
+	"principal_investigator": [
+		{
+			"name": "MaCurdy, Thomas",
+            "affiliation": "SPHERE Institute",
+            "order": "0"
+		},
+		{
+			"name": "Shafrin, Jason",
+            "affiliation": "Acumen, LLC",
+            "order": "1"
+		}
+	],
+	"citation": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">MaCurdy, Thomas, and Shafrin, Jason. Post-Acute Care Supplement (PACS) Research Files, 2000-2010. Medicare/Medicaid Research Information Center (MedRIC) [distributor], 2013-02-28. https://doi.org/10.3886/ICPSR34443.v1</div>\n</div>",
+	"distributor": [
+		{
+			"name": "Medicare/Medicaid Research Information Center (MedRIC)"
+		}
+	],
+	"study_number": "34443",
+	"doi": "https://doi.org/10.3886/ICPSR34443.v1",
+	"funding_source": [
+		{
+			"agency": "United States Department of Health and Human Services. Agency for Healthcare Research and Quality",
+			"grant_number": "1R24HS019661-01"
+		}
+	],
+	"summary": "<p><strong>Overview.</strong> The Post-Acute Care Supplement (PACS) files were developed from two administrative data sets that capture assessments at multiple points in post-acute care: the Outcome and Assessment Information Set (OASIS) Summary File (OASF): 2000-2010, which covers home health care, and the Long-Term Care Annual Summary File (LTCASF): 2000-2010, which covers nursing homes. Annual files were developed for the period 2000 to 2010 that summarize health conditions, functional status, and care patterns into one observation per beneficiary per year.</p>\n<p><strong>Data Access.</strong> These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com).</p>",
+	"subject_term": [
+		"Medicaid",
+        "Medicare",
+        "health care",
+        "health care services",
+        "home health care",
+        "nursing homes"
+	],
+	"geographic_coverage_area": [
+		"United States"
+	],
+	"time_period": [
+		{
+			"date": "2000-01-01--2010-12-31"
+		}
+	],
+	"collection_date": [
+		{
+			"date": "2012"
+		}
+	],
+	"universe": "OASF: patients treated in Medicare-certified home health facilities.  LTCASF: patients treated in Medicare-certified or Medicaid-certified long-term care.",
+	"data_type": [
+		"administrative records data"
+	],
+	"sampling": "Each year of OASF data uses the universe of OASIS data.  Each year of LTCASF data uses the universe of Minimum Data Set (MDS) data.",
+	"data_source": [
+		"Long-Term Care Minimum Data Set (MDS): 2000-2010", 
+		"Outcome Assessment Information Set (OASIS): 2000-2010"
+	],
+	"scales": "ADL Functionality Scale - Similar to Katz Basic Activities of Daily Living Scale.  IADL Functionality Scale - Similar to the Lawton Instrumental Activities of Daily Living Scale.",
+	"unit_of_observation": "For OASF, all patients in Medicare-certified home health agencies. For LTCASF, all patients in Medicare-certified or Medicaid-certified long-term care facilities.",
+	"smallest_geographic_unit": "ZIP Code.",
+	"restrictions": "These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com).",
+	"changes_to_collection": [
+		{
+			"note": "2018-02-15 The citation of this study may have changed due to the new version control system that has been implemented. The previous citation was: <ul><li>MaCurdy, Thomas, and Jason Shafrin. Post-Acute Care Supplement (PACS) Research Files, 2000-2010. ICPSR34443-v1. Burlingame, CA: Medicare/Medicaid Research Information Center (MedRIC) [distributor], 2013-02-28. http://doi.org/10.3886/ICPSR34443.v1</li></ul>"
+		}
+	],
+	"classification": ["AHRQMCC.I", "AHRQMCC.II", "ICPSR.IX"]
+}

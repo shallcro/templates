@@ -12,12 +12,12 @@
 
 	{# VERSION DATE #}
 	{% if study.modified %}
-        , "version_date": {{ study.modified[0]) | jsonify }}
+        , "version_date": {{ study.modified[0]) | from_iso_date | format_date('%Y-%m-%d') | jsonify }}
     {% endif %}
 
     {# ORIGINAL RELEASE DATE #}
     {% if study.issued %}
-    	, "original_release_date": {{ study.issued[0]) | jsonify }}
+    	, "original_release_date": {{ study.issued[0]) | from_iso_date | format_date('%Y-%m-%d') | jsonify }}
     {% endif %}
 
     {# TITLE #}

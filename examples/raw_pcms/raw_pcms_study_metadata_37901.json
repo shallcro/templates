@@ -1,0 +1,95 @@
+[
+{
+    "study": [
+    {
+        "doi": ["https://doi.org/10.3886/ICPSR37901.v1"],
+        "title": ["Survey of Consumer Attitudes and Behavior, January 2017"],
+        "issued": ["2023-03-30T09:16:01"],
+        "source": [],
+        "creator": [
+        {
+            "name": "University of Michigan. Survey Research Center. Economic Behavior Program",
+            "type": "org:Organization",
+            "order": "0"
+        }],
+        "funding": [],
+        "keyword": ["consumer attitudes", "consumer expectations", "consumer expenditures", "economic policy", "financial planning", "government", "home ownership", "household expenditures", "household income", "interest rates", "investments", "national economy", "retirement", "stock markets", "unemployment"],
+        "purpose": ["The purpose of this survey series is to forecast changes in aggregate consumer behavior."],
+        "spatial": ["United States"],
+        "version": ["V1"],
+        "altTitle": ["Surveys of Consumers"],
+        "archives": ["ICPSR"],
+        "citation": ["<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">University of Michigan. Survey Research Center. Economic Behavior Program. Survey of Consumer Attitudes and Behavior, January 2017.  [distributor], 2023-03-30. https://doi.org/10.3886/ICPSR37901.v1</div>\n</div>"],
+        "modified": ["2023-03-30T09:19:03"],
+        "universe": ["Persons aged 18 years or older living in households with telephones within the coterminous United States."],
+        "fundingOrg": [],
+        "identifier": ["37901"],
+        "kindOfData": ["survey data"],
+        "licenseURI": ["https://www.icpsr.umich.edu/web/ICPSR/studies/37901/terms"],
+        "restricted": ["true"],
+        "timeMethod": ["Longitudinal: Trend / Repeated Cross-section"],
+        "timePeriod": [
+        {
+            "startDate": "2017-01"
+        }],
+        "description": ["<p>The Survey of Consumer Attitudes and Behavior series (also known as the Surveys of Consumers) was undertaken to measure changes in consumer attitudes and expectations, to understand why such changes occur, and to evaluate how they relate to consumer decisions to save, borrow, or make discretionary purchases. The data regularly include the Index of Consumer Sentiment, the Index of Current Economic Conditions, and the Index of Consumer Expectations. Since the 1940s, these surveys have been produced quarterly through 1977 and monthly thereafter.</p>\n<p>The surveys conducted in 2017 focused on topics such as evaluations and expectations about personal finances, employment, price changes, and the national business situation. Opinions were collected regarding respondents' appraisals of present market conditions for purchasing houses, automobiles, computers, and other durables. Also explored in this survey, were respondents'  types of savings and financial investments, loan use, family income, and retirement planning. </p>\n<p>Other topics in this series typically include ownership, lease, and use of automobiles, respondents' use of personal computers at home and in the office, and respondents' familiarity with and use of the internet. Demographic information includes ethnic origin, sex, age, marital status, and education.</p>"],
+        "distributor": [],
+        "studyDesign": ["This survey is a rotating panel design. For each monthly sample, an independent cross-section sample of households is drawn. The respondents chosen in this drawing are then reinterviewed six months later. The result is a rotating panel design, and the total sample for any one survey is normally made up of 60 percent new respondents with 40 percent being interviewed for the second time."],
+        "accessRights": ["This data collection may not be used for any purpose other than statistical reporting and analysis. Use of these data to learn the identity of any person or establishment is prohibited. To protect respondent privacy, some of the data files in this collection are restricted from general dissemination. To obtain these restricted files researchers must agree to the terms and conditions of a Restricted Data Use Agreement."],
+        "analysisUnit": ["Household", "Individual"],
+        "commonScales": [],
+        "ownerArchive": ["ICPSR"],
+        "responseRate": [],
+        "collectionDate": [
+        {
+            "endDate": "2017-01-23",
+            "startDate": "2016-12-27"
+        }],
+        "collectionMode": ["computer-assisted telephone interview (CATI)"],
+        "geographicUnit": ["FIPS code"],
+        "classifications": ["ICPSR.IV.A", "ICPSR.IV.B"],
+        "collectionNotes": [
+        {
+            "note": "Additional information on the Surveys of Consumers can be found by visiting the <a href= \"http://www.sca.isr.umich.edu/\"> Surveys of Consumers Website.</a>",
+            "order": "1"
+        },
+        {
+            "note": "Information on the Index of Consumer Sentiment, the Index of Current Economic Conditions, and the Index of Consumer Expectations and how they were created can be found in the P.I. Codebook",
+            "order": "0"
+        }],
+        "collectionChanges": ["<p>2023-03-30 ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:</p><ul><li>Created variable labels and/or value labels.</li><li>Created online analysis version with question text.</li><li>Checked for undocumented or out-of-range codes.</li></ul>"],
+        "samplingProcedure": ["National sample of telephone numbers from cell (RDD) sampling frame"],
+        "membershipRequired": ["true"]
+    }],
+    "series": [
+    {
+        "url": ["https://www.icpsr.umich.edu/web/ICPSR/series/54"],
+        "title": ["Survey of Consumer Attitudes and Behavior Series"],
+        "modified": ["2015-02-11T10:59:07"],
+        "identifier": ["54"],
+        "description": ["<!-- Survey of Consumer Attitudes and Behavior Series -->\n<p class=\"investigator\"><strong>Investigator(s):</strong>University of \nMichigan. Survey Research Center. Economic Behavior Program</p>\n\n<p>The Survey of Consumer Attitudes and Behavior (also know as the Surveys of Consumers) were initiated \nin the late 1940s by the Survey Research Center of the University of Michigan, \nInstitute for Social Research, under the direction of George Katona and have \nbeen carried out quarterly through 1977 and monthly thereafter. The purpose of \nthese surveys is to measure changes in consumer attitudes and expectations, to \nunderstand why these changes occur, to evaluate how they relate to consumer \ndecisions to save, borrow, or make discretionary purchases, and to forecast \nchanges in aggregate consumer behavior. Changes in consumers' willingness to buy \nare best assessed by making use of the answers to all questions asked in the \nsurveys, especially the open-ended questions that probe underlying reasons. \nNevertheless, in order to make available a summary measure of change in consumer \nsentiment, the Survey Research Center uses the answers to selected questions to \ncalculate an Index of Consumer Sentiment. Each survey also probes a different \naspect of consumer confidence. The surveys use a national sample of dwelling \nunits selected by area probability sampling that is representative of the adult \npopulation of the United States.</p>"]
+    }],
+    "dataset": [
+    {
+        "title": ["Study-Level Files"],
+        "fileName": ["cb37901-all_PI.pdf.gz", "cb37901-all_PI_REST.pdf", "doc37901-all_qtext.txt.gz", "doc37901-all_qtext_REST.txt", "qu37901-all.pdf.gz", "qu37901-all_REST.pdf"],
+        "identifier": ["37901-0000"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/datasets/0/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    },
+    {
+        "title": ["Restricted-Use Data"],
+        "fileName": ["cb37901-0002_ICPSR_REST.pdf", "da37901-0002_REST.dta", "da37901-0002_REST.rda", "da37901-0002_REST.sav", "da37901-0002_REST.stc", "da37901-0002_REST.tsv", "da37901-0002_REST.txt", "set37901-0002_REST.dct", "set37901-0002_REST.do", "set37901-0002_REST.sas", "set37901-0002_REST.sps", "ssf37901-0002_REST.do", "ssf37901-0002_REST.sas"],
+        "identifier": ["37901-0002"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/datasets/2/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    },
+    {
+        "title": ["Public-Use Data"],
+        "fileName": ["cb37901-0001_ICPSR.pdf.gz", "da37901-0001.dta.gz", "da37901-0001.rda.gz", "da37901-0001.sav.gz", "da37901-0001.stc.gz", "da37901-0001.tsv.gz", "da37901-0001.txt.gz", "set37901-0001.dct.gz", "set37901-0001.do.gz", "set37901-0001.sas.gz", "set37901-0001.sps.gz", "ssf37901-0001.do.gz", "ssf37901-0001.sas.gz"],
+        "identifier": ["37901-0001"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/datasets/1/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    }]
+}
+]

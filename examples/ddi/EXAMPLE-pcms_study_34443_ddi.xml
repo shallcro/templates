@@ -28,7 +28,7 @@
                 <grantNo agency="United States Department of Health and Human Services. Agency for Healthcare Research and Quality">1R24HS019661-01</grantNo>
             </prodStmt>
             <distStmt>
-                <distrbtr abbr="ICPSR" affiliation="Institute for Social Research, University of Michigan">Inter-university Consortium for Political and Social Research</distrbtr>
+                <distrbtr>Medicare/Medicaid Research Information Center (MedRIC)</distrbtr>
                 <distDate date="2013-02-28">February 28, 2013</distDate>
             </distStmt>
             <verStmt>

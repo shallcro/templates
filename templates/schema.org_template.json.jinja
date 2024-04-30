@@ -83,7 +83,7 @@
 
     {# Version Date #}
     {% if study.issued %}
-        , "datePublished": {{ (study.issued[0] if study.version[0] == 'V1' else study.modified[0]) | jsonify }}
+        , "datePublished": {{ (study.issued[0] if study.version[0] == 'V1' else study.modified[0]) | from_iso_date | format_date('%Y-%m-%d') | jsonify }}
     {% endif %}
 
     {# Citation #}
