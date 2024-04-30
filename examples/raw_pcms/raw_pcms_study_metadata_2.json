@@ -1,0 +1,72 @@
+[
+{
+    "study": [
+    {
+        "doi": ["https://doi.org/10.3886/ICPSR01130.v1"],
+        "title": ["David Duke Campaigns: County-level Louisiana Data"],
+        "issued": ["1998-01-28T00:00:00"],
+        "source": [],
+        "creator": [
+        {
+            "name": "Voss, D. Stephen",
+            "type": "foaf:Person",
+            "order": "0",
+            "affiliation": "Harvard University"
+        }],
+        "funding": [],
+        "keyword": ["Duke, David", "Ku Klux Klan", "census data", "counties", "elections", "gubernatorial elections", "state elections"],
+        "purpose": [],
+        "spatial": ["Louisiana", "United States"],
+        "version": ["V1"],
+        "altTitle": [],
+        "archives": ["ICPSR"],
+        "citation": ["<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Voss, D. Stephen. David Duke Campaigns: County-level Louisiana Data. Inter-university Consortium for Political and Social Research [distributor], 1998-01-28. https://doi.org/10.3886/ICPSR01130.v1</div>\n</div>"],
+        "modified": ["1998-01-28T00:00:00"],
+        "universe": [],
+        "fundingOrg": [],
+        "identifier": ["1130"],
+        "kindOfData": [],
+        "licenseURI": ["https://www.icpsr.umich.edu/web/ICPSR/studies/01130/terms"],
+        "restricted": ["false"],
+        "timeMethod": [],
+        "timePeriod": [
+        {
+            "startDate": "1990"
+        },
+        {
+            "startDate": "1991"
+        }],
+        "description": ["This collection makes available county-level census and\nelection data for the study of ex-Klansman David Duke's three\nstatewide contests in Louisiana: a 1990 race for United States Senate,\na 1991 open primary contest for governor, and the 1991 gubernatorial\nrunoff. These data were the subject of an exchange between D. Stephen\nVoss and Micheal Giles and Melanie Buckner in the JOURNAL OF POLITICS\n58:4. The files available through the ICPSR include additional\nanalysis and documentation not available in the published work, for\npurposes of verification or replication. The data were collected from\ngovernment agencies and repackaged in part under funding from Harvard\nUniversity's Mellon Dissertation Research Fellowship."],
+        "distributor": ["Inter-university Consortium for Political and Social Research"],
+        "studyDesign": [],
+        "accessRights": [],
+        "analysisUnit": [],
+        "commonScales": [],
+        "ownerArchive": ["ICPSR"],
+        "responseRate": [],
+        "collectionDate": [],
+        "collectionMode": [],
+        "geographicUnit": [],
+        "classifications": ["ICPSR.XVIII"],
+        "collectionNotes": [
+        {
+            "note": "These data are part of ICPSR's\nPublication-Related Archive and are distributed exactly as they\narrived from the data depositor. ICPSR has not checked or processed\nthis material. Users should consult the investigator(s) if further\ninformation is desired.",
+            "order": "1"
+        },
+        {
+            "note": "The file submitted is voss96.zip, in PKZIP 2.04\nbinary compression format. It includes a readme file (dukeread.me)\noutlining the detailed contents.",
+            "order": "0"
+        }],
+        "collectionChanges": ["2018-02-15 The citation of this study may have changed due to the new version control system that has been implemented. The previous citation was: <ul><li>Voss, D. Stephen. David Duke Campaigns: County-level Louisiana Data. ICPSR01130-v1. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1998-01-28. http://doi.org/10.3886/ICPSR01130.v1</li></ul>"],
+        "samplingProcedure": [],
+        "membershipRequired": ["false"]
+    }],
+    "dataset": [
+    {
+        "title": ["David Duke Campaigns: County-level Louisiana Data"],
+        "fileName": ["doc01130-0001_usernote.txt.gz", "pkg01130-0001.zip.gz"],
+        "identifier": ["01130-0001"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/1130/versions/V1/datasets/1/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    }]
+}]

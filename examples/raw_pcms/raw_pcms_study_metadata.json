@@ -1,0 +1,458 @@
+{
+    "study": [
+    {
+        "doi": ["https://doi.org/10.3886/ICPSR09817.v1"],
+        "title": ["Consumer Expenditure Survey, 1990: Interview Survey, Detailed Expenditure Files"],
+        "issued": ["1992-10-31T00:00:00"],
+        "source": ["personal interviews"],
+        "creator": [
+        {
+            "name": "United States Department of Labor. Bureau of Labor Statistics",
+            "type": "org:Organization",
+            "order": "0"
+        }],
+        "funding": [],
+        "keyword": ["automobile expenses", "clothing", "construction costs", "consumer behavior", "consumer expenditures", "consumption", "credit", "debt", "demographic characteristics", "durable goods", "education expenditures", "employment", "energy consumption", "families", "fixed income", "food costs", "health expenditures", "health insurance", "home ownership", "hospitalization", "household appliances", "household budgets", "household expenditures", "household income", "housing costs", "insurance", "memberships", "mortgage payments", "property repairs", "purchasing", "recreation expenses", "taxes", "unemployment benefits", "wages and salaries"],
+        "purpose": [],
+        "spatial": ["United States"],
+        "version": ["V1"],
+        "altTitle": [],
+        "archives": ["ICPSR", "NACDA"],
+        "citation": ["<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">United States Department of Labor. Bureau of Labor Statistics. Consumer Expenditure Survey, 1990: Interview Survey, Detailed Expenditure Files. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2006-01-12. https://doi.org/10.3886/ICPSR09817.v1</div>\n</div>"],
+        "modified": ["2006-01-12T00:00:00"],
+        "universe": ["Total civilian, noninstitutionalized population of the \nUnited States."],
+        "fundingOrg": [],
+        "identifier": ["9817"],
+        "kindOfData": ["survey data"],
+        "licenseURI": ["https://www.icpsr.umich.edu/web/ICPSR/studies/09817/terms"],
+        "restricted": ["false"],
+        "timeMethod": [],
+        "timePeriod": [
+        {
+            "startDate": "1990"
+        }],
+        "description": ["The ongoing Consumer Expenditure Survey (CES) provides a \n continuous flow of information on the buying habits of American \n consumers and also furnishes data to support periodic revisions of the \n Consumer Price Index. The survey consists of two separate components: \n (1) a quarterly Interview Survey in which each consumer unit (CU) in \n the sample is interviewed every three months over a 15-month period, \n and (2) a Diary Survey completed by the sample CUs for two consecutive \n one-week periods. The Interview Survey was designed to collect data on \n major items of expense, household characteristics, and income. The \n expenditures covered by the survey are those that respondents can \n recall fairly accurately for three months or longer. In general, these \n expenditures include relatively large purchases, such as those for \n property, automobiles, and major appliances, or expenditures that occur \n on a fairly regular basis, such as rent, utilities, or insurance \n premiums. Expenditures incurred while on trips are also covered by the \n survey. Excluded are nonprescription drugs, household supplies, and \n personal care items. Including global estimates on spending for food, \n it is estimated that about 90 to 95 percent of expenditures are covered \n in the Interview Survey. The Detailed Expenditure Files that comprise \n this data collection were created from all the major expenditure \n sections of the Interview Survey questionnaires. These files contain \n more detailed expenditure records than those found in the Interview \n Survey data tapes. In addition, the Detailed Expenditure Files include \n family characteristics (FMLY) files and income and member \n characteristics (MEMB) files identical to those found in the Interview \nSurvey."],
+        "distributor": [],
+        "studyDesign": [],
+        "accessRights": [],
+        "analysisUnit": [],
+        "commonScales": [],
+        "ownerArchive": ["ICPSR"],
+        "responseRate": [],
+        "collectionDate": [],
+        "collectionMode": [],
+        "geographicUnit": [],
+        "classifications": ["ICPSR.IV.A", "NACDA.III"],
+        "collectionNotes": [],
+        "collectionChanges": ["2006-01-12 All files were removed from dataset 56 and flagged as study-level files, so that they will accompany all downloads.", "2006-01-12 All files were removed from dataset 57 and flagged as study-level files, so that they will accompany all downloads.", "2018-02-15 The citation of this study may have changed due to the new version control system that has been implemented. The previous citation was: <ul><li>U.S. Dept. of Labor, Bureau of Labor Statistics. CONSUMER EXPENDITURE SURVEY, 1990: INTERVIEW SURVEY, DETAILED EXPENDITURE FILES. Washington, DC: U.S. Dept. of Commerce, Bureau of the Census [producer], 1992. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1992. http://doi.org/10.3886/ICPSR09817.v1</li></ul>"],
+        "samplingProcedure": ["The Consumer Expenditure Survey is based on a national \n probability sample of households. Households are selected from primary \n sampling units (PSUs), which consist of counties (or parts thereof), \n groups of counties, or independent cities. The set of sample PSUs used \n for the survey is composed of 101 areas, of which 85 urban areas have \n also been selected by the Bureau of Labor Statistics for the Consumer \n Price Index program. The sampling frame from which housing units were \n selected was generated from the 1980 Census 100-percent detail file, \n augmented by new construction permits and coverage improvement \n techniques used to eliminate recognized deficiencies in that census. \n The sample design is a rotating panel survey in which one-fifth of the \n sample is dropped and a new group added each quarter. Each panel is \n interviewed for five consecutive quarters and then dropped from the \nsurvey."],
+        "membershipRequired": ["true"]
+    }],
+    "dataset": [
+    {
+        "title": ["1990-1991: Clothing and Sewing Materials (Sewing Materials)"],
+        "fileName": ["da09817-0030.txt.gz"],
+        "identifier": ["09817-0030"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["Credit Liability (Second Quarter Only)"],
+        "fileName": ["da09817-0052.txt.gz"],
+        "identifier": ["09817-0052"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990 Third Quarter: Family Characteristics and Income"],
+        "fileName": ["da09817-0005.txt.gz"],
+        "identifier": ["09817-0005"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Miscellaneous Expenses"],
+        "fileName": ["da09817-0049.txt.gz"],
+        "identifier": ["09817-0049"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Books and Entertainment"],
+        "fileName": ["da09817-0046.txt.gz"],
+        "identifier": ["09817-0046"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Owned Vehicles (Disposed-of Vehicles)"],
+        "fileName": ["da09817-0034.txt.gz"],
+        "identifier": ["09817-0034"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Subscriptions and Memberships"],
+        "fileName": ["da09817-0045.txt.gz"],
+        "identifier": ["09817-0045"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Medical and Health Expenditures (Expenses)"],
+        "fileName": ["da09817-0041.txt.gz"],
+        "identifier": ["09817-0041"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["Vehicle Make/Model Codes and Titles"],
+        "fileName": ["da09817-0055.txt.gz"],
+        "identifier": ["09817-0055"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["Credit Liability (Credit Balances)"],
+        "fileName": ["da09817-0053.txt.gz"],
+        "identifier": ["09817-0053"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Educational Expenses (Expenses Paid by the CU)"],
+        "fileName": ["da09817-0043.txt.gz"],
+        "identifier": ["09817-0043"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Clothing and Sewing Materials (Clothing Services)"],
+        "fileName": ["da09817-0031.txt.gz"],
+        "identifier": ["09817-0031"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Construction, Repairs, Alterations, and Maintenance of Property (Screening Questions)"],
+        "fileName": ["da09817-0020.txt.gz"],
+        "identifier": ["09817-0020"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990 Second Quarter: Family Characteristics and Income"],
+        "fileName": ["da09817-0003.txt.gz"],
+        "identifier": ["09817-0003"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Owned Living Quarters (Detailed Property Description)"],
+        "fileName": ["da09817-0013.txt.gz"],
+        "identifier": ["09817-0013"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990 Fourth Quarter: Family Characteristics and Income"],
+        "fileName": ["da09817-0007.txt.gz"],
+        "identifier": ["09817-0007"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Appliances, Household Equipment, and Other Selected Items (Other Household Equipment)"],
+        "fileName": ["da09817-0023.txt.gz"],
+        "identifier": ["09817-0023"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Utilities and Fuels (Telephone Expenses)"],
+        "fileName": ["da09817-0017.txt.gz"],
+        "identifier": ["09817-0017"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Major Household Appliances"],
+        "fileName": ["da09817-0011.txt.gz"],
+        "identifier": ["09817-0011"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Educational Expenses (Expenses Paid Directly by Others Outside the CU)"],
+        "fileName": ["da09817-0044.txt.gz"],
+        "identifier": ["09817-0044"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Furniture Repair and Reupholstering"],
+        "fileName": ["da09817-0025.txt.gz"],
+        "identifier": ["09817-0025"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Vehicle Operating Expenses (Vehicle Maintenance and Repair)"],
+        "fileName": ["da09817-0035.txt.gz"],
+        "identifier": ["09817-0035"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["Codebook Text for All Parts"],
+        "fileName": [],
+        "identifier": ["09817-0056"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Owned Living Quarters (Disposed-of Property)"],
+        "fileName": ["da09817-0014.txt.gz"],
+        "identifier": ["09817-0014"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Rental Living Quarters"],
+        "fileName": ["da09817-0012.txt.gz"],
+        "identifier": ["09817-0012"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Vehicle Operating Expenses (Licensing, Registration, and Inspection of Vehicles)"],
+        "fileName": ["da09817-0036.txt.gz"],
+        "identifier": ["09817-0036"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Vehicle Operating Expenses (Other Vehicle Operating Expenses)"],
+        "fileName": ["da09817-0037.txt.gz"],
+        "identifier": ["09817-0037"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Rented and Leased Vehicles (Detailed Questions)"],
+        "fileName": ["da09817-0032.txt.gz"],
+        "identifier": ["09817-0032"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Utilities and Fuels (Detailed Questions)"],
+        "fileName": ["da09817-0019.txt.gz"],
+        "identifier": ["09817-0019"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990 Fourth Quarter: Member Characteristics and Income"],
+        "fileName": ["da09817-0008.txt.gz"],
+        "identifier": ["09817-0008"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990 Second Quarter: Member Characteristics and Income"],
+        "fileName": ["da09817-0004.txt.gz"],
+        "identifier": ["09817-0004"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Food, Beverages, and Other Selected Items (Food and Beverages)"],
+        "fileName": ["da09817-0050.txt.gz"],
+        "identifier": ["09817-0050"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990 First Quarter: Member Characteristics and Income"],
+        "fileName": ["da09817-0002.txt.gz"],
+        "identifier": ["09817-0002"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Utilities and Fuels (Screening Questions)"],
+        "fileName": ["da09817-0018.txt.gz"],
+        "identifier": ["09817-0018"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Hospitalization and Health Insurance (Medicare, Medicaid, and Other Plans Not Paid by the CU)"],
+        "fileName": ["da09817-0040.txt.gz"],
+        "identifier": ["09817-0040"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["Credit Liability (Finance Charges)"],
+        "fileName": ["da09817-0054.txt.gz"],
+        "identifier": ["09817-0054"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Trips and Vacations (Screening Questions)"],
+        "fileName": ["da09817-0047.txt.gz"],
+        "identifier": ["09817-0047"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1991 First Quarter: Member Characteristics and Income"],
+        "fileName": ["da09817-0010.txt.gz"],
+        "identifier": ["09817-0010"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990 Third Quarter: Member Characteristics and Income"],
+        "fileName": ["da09817-0006.txt.gz"],
+        "identifier": ["09817-0006"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Clothing and Sewing Materials (Clothing)"],
+        "fileName": ["da09817-0028.txt.gz"],
+        "identifier": ["09817-0028"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Insurance Other Than Health"],
+        "fileName": ["da09817-0038.txt.gz"],
+        "identifier": ["09817-0038"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Home Furnishings and Related Household Items (Rental or Leasing of Furniture)"],
+        "fileName": ["da09817-0027.txt.gz"],
+        "identifier": ["09817-0027"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Household Equipment Repairs and Service Contracts"],
+        "fileName": ["da09817-0024.txt.gz"],
+        "identifier": ["09817-0024"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["Errata (April 1994)"],
+        "fileName": [],
+        "identifier": ["09817-0057"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Home Furnishings and Related Household Items (Purchases)"],
+        "fileName": ["da09817-0026.txt.gz"],
+        "identifier": ["09817-0026"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["Study-Level Files"],
+        "fileName": ["doc09817-all.txt.gz", "er09817-all.txt.gz"],
+        "identifier": ["09817-0000"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/9817/versions/V1/datasets/0/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    },
+    {
+        "title": ["1990-1991: Trips and Vacations (Detailed Questions)"],
+        "fileName": ["da09817-0048.txt.gz"],
+        "identifier": ["09817-0048"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Clothing and Sewing Materials (Infants' Clothing, Watches, Jewelry, and Hairpieces)"],
+        "fileName": ["da09817-0029.txt.gz"],
+        "identifier": ["09817-0029"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Construction, Repairs, Alterations, and Maintenance of Property (Job Description)"],
+        "fileName": ["da09817-0021.txt.gz"],
+        "identifier": ["09817-0021"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Hospitalization and Health Insurance (Detailed Questionnaire)"],
+        "fileName": ["da09817-0039.txt.gz"],
+        "identifier": ["09817-0039"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990 First Quarter: Family Characteristics and Income"],
+        "fileName": ["da09817-0001.txt.gz"],
+        "identifier": ["09817-0001"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Owned Living Quarters (Mortgage Payments)"],
+        "fileName": ["da09817-0015.txt.gz"],
+        "identifier": ["09817-0015"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Owned Living Quarters (Ownership Costs)"],
+        "fileName": ["da09817-0016.txt.gz"],
+        "identifier": ["09817-0016"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1991 First Quarter: Family Characteristics and Income"],
+        "fileName": ["da09817-0009.txt.gz"],
+        "identifier": ["09817-0009"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Food, Beverages, and Other Selected Items (Selected Services and Goods)"],
+        "fileName": ["da09817-0051.txt.gz"],
+        "identifier": ["09817-0051"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Owned Vehicles (Detailed Questions)"],
+        "fileName": ["da09817-0033.txt.gz"],
+        "identifier": ["09817-0033"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Medical and Health Expenditures (Reimbursements)"],
+        "fileName": ["da09817-0042.txt.gz"],
+        "identifier": ["09817-0042"],
+        "describedBy": [],
+        "describedByType": []
+    },
+    {
+        "title": ["1990-1991: Appliances, Household Equipment, and Other Selected Items (Purchase of Appliances)"],
+        "fileName": ["da09817-0022.txt.gz"],
+        "identifier": ["09817-0022"],
+        "describedBy": [],
+        "describedByType": []
+    }]
+}

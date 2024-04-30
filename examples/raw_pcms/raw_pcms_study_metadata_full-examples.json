@@ -1,0 +1,185 @@
+[
+{
+    "study": [
+    {
+        "doi": ["https://doi.org/10.3886/ICPSR37901.v1"],
+        "title": ["Survey of Consumer Attitudes and Behavior, January 2017"],
+        "issued": ["2023-03-30T09:16:01"],
+        "source": [],
+        "creator": [
+        {
+            "name": "University of Michigan. Survey Research Center. Economic Behavior Program",
+            "type": "org:Organization",
+            "order": "0"
+        }],
+        "funding": [],
+        "keyword": ["consumer attitudes", "consumer expectations", "consumer expenditures", "economic policy", "financial planning", "government", "home ownership", "household expenditures", "household income", "interest rates", "investments", "national economy", "retirement", "stock markets", "unemployment"],
+        "purpose": ["The purpose of this survey series is to forecast changes in aggregate consumer behavior."],
+        "spatial": ["United States"],
+        "version": ["V1"],
+        "altTitle": ["Surveys of Consumers"],
+        "archives": ["ICPSR"],
+        "citation": ["<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">University of Michigan. Survey Research Center. Economic Behavior Program. Survey of Consumer Attitudes and Behavior, January 2017.  [distributor], 2023-03-30. https://doi.org/10.3886/ICPSR37901.v1</div>\n</div>"],
+        "modified": ["2023-03-30T09:19:03"],
+        "universe": ["Persons aged 18 years or older living in households with telephones within the coterminous United States."],
+        "fundingOrg": [],
+        "identifier": ["37901"],
+        "kindOfData": ["survey data"],
+        "licenseURI": ["https://www.icpsr.umich.edu/web/ICPSR/studies/37901/terms"],
+        "restricted": ["true"],
+        "timeMethod": ["Longitudinal: Trend / Repeated Cross-section"],
+        "timePeriod": [
+        {
+            "startDate": "2017-01"
+        }],
+        "description": ["<p>The Survey of Consumer Attitudes and Behavior series (also known as the Surveys of Consumers) was undertaken to measure changes in consumer attitudes and expectations, to understand why such changes occur, and to evaluate how they relate to consumer decisions to save, borrow, or make discretionary purchases. The data regularly include the Index of Consumer Sentiment, the Index of Current Economic Conditions, and the Index of Consumer Expectations. Since the 1940s, these surveys have been produced quarterly through 1977 and monthly thereafter.</p>\n<p>The surveys conducted in 2017 focused on topics such as evaluations and expectations about personal finances, employment, price changes, and the national business situation. Opinions were collected regarding respondents' appraisals of present market conditions for purchasing houses, automobiles, computers, and other durables. Also explored in this survey, were respondents'  types of savings and financial investments, loan use, family income, and retirement planning. </p>\n<p>Other topics in this series typically include ownership, lease, and use of automobiles, respondents' use of personal computers at home and in the office, and respondents' familiarity with and use of the internet. Demographic information includes ethnic origin, sex, age, marital status, and education.</p>"],
+        "distributor": [],
+        "studyDesign": ["This survey is a rotating panel design. For each monthly sample, an independent cross-section sample of households is drawn. The respondents chosen in this drawing are then reinterviewed six months later. The result is a rotating panel design, and the total sample for any one survey is normally made up of 60 percent new respondents with 40 percent being interviewed for the second time."],
+        "accessRights": ["This data collection may not be used for any purpose other than statistical reporting and analysis. Use of these data to learn the identity of any person or establishment is prohibited. To protect respondent privacy, some of the data files in this collection are restricted from general dissemination. To obtain these restricted files researchers must agree to the terms and conditions of a Restricted Data Use Agreement."],
+        "analysisUnit": ["Household", "Individual"],
+        "commonScales": [],
+        "ownerArchive": ["ICPSR"],
+        "responseRate": [],
+        "collectionDate": [
+        {
+            "endDate": "2017-01-23",
+            "startDate": "2016-12-27"
+        }],
+        "collectionMode": ["computer-assisted telephone interview (CATI)"],
+        "geographicUnit": ["FIPS code"],
+        "classifications": ["ICPSR.IV.A", "ICPSR.IV.B"],
+        "collectionNotes": [
+        {
+            "note": "Additional information on the Surveys of Consumers can be found by visiting the <a href= \"http://www.sca.isr.umich.edu/\"> Surveys of Consumers Website.</a>",
+            "order": "1"
+        },
+        {
+            "note": "Information on the Index of Consumer Sentiment, the Index of Current Economic Conditions, and the Index of Consumer Expectations and how they were created can be found in the P.I. Codebook",
+            "order": "0"
+        }],
+        "collectionChanges": ["<p>2023-03-30 ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:</p><ul><li>Created variable labels and/or value labels.</li><li>Created online analysis version with question text.</li><li>Checked for undocumented or out-of-range codes.</li></ul>"],
+        "samplingProcedure": ["National sample of telephone numbers from cell (RDD) sampling frame"],
+        "membershipRequired": ["true"]
+    }],
+    "series": [
+    {
+        "url": ["https://www.icpsr.umich.edu/web/ICPSR/series/54"],
+        "title": ["Survey of Consumer Attitudes and Behavior Series"],
+        "modified": ["2015-02-11T10:59:07"],
+        "identifier": ["54"],
+        "description": ["<!-- Survey of Consumer Attitudes and Behavior Series -->\n<p class=\"investigator\"><strong>Investigator(s):</strong>University of \nMichigan. Survey Research Center. Economic Behavior Program</p>\n\n<p>The Survey of Consumer Attitudes and Behavior (also know as the Surveys of Consumers) were initiated \nin the late 1940s by the Survey Research Center of the University of Michigan, \nInstitute for Social Research, under the direction of George Katona and have \nbeen carried out quarterly through 1977 and monthly thereafter. The purpose of \nthese surveys is to measure changes in consumer attitudes and expectations, to \nunderstand why these changes occur, to evaluate how they relate to consumer \ndecisions to save, borrow, or make discretionary purchases, and to forecast \nchanges in aggregate consumer behavior. Changes in consumers' willingness to buy \nare best assessed by making use of the answers to all questions asked in the \nsurveys, especially the open-ended questions that probe underlying reasons. \nNevertheless, in order to make available a summary measure of change in consumer \nsentiment, the Survey Research Center uses the answers to selected questions to \ncalculate an Index of Consumer Sentiment. Each survey also probes a different \naspect of consumer confidence. The surveys use a national sample of dwelling \nunits selected by area probability sampling that is representative of the adult \npopulation of the United States.</p>"]
+    }],
+    "dataset": [
+    {
+        "title": ["Study-Level Files"],
+        "fileName": ["cb37901-all_PI.pdf.gz", "cb37901-all_PI_REST.pdf", "doc37901-all_qtext.txt.gz", "doc37901-all_qtext_REST.txt", "qu37901-all.pdf.gz", "qu37901-all_REST.pdf"],
+        "identifier": ["37901-0000"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/datasets/0/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    },
+    {
+        "title": ["Restricted-Use Data"],
+        "fileName": ["cb37901-0002_ICPSR_REST.pdf", "da37901-0002_REST.dta", "da37901-0002_REST.rda", "da37901-0002_REST.sav", "da37901-0002_REST.stc", "da37901-0002_REST.tsv", "da37901-0002_REST.txt", "set37901-0002_REST.dct", "set37901-0002_REST.do", "set37901-0002_REST.sas", "set37901-0002_REST.sps", "ssf37901-0002_REST.do", "ssf37901-0002_REST.sas"],
+        "identifier": ["37901-0002"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/datasets/2/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    },
+    {
+        "title": ["Public-Use Data"],
+        "fileName": ["cb37901-0001_ICPSR.pdf.gz", "da37901-0001.dta.gz", "da37901-0001.rda.gz", "da37901-0001.sav.gz", "da37901-0001.stc.gz", "da37901-0001.tsv.gz", "da37901-0001.txt.gz", "set37901-0001.dct.gz", "set37901-0001.do.gz", "set37901-0001.sas.gz", "set37901-0001.sps.gz", "ssf37901-0001.do.gz", "ssf37901-0001.sas.gz"],
+        "identifier": ["37901-0001"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/datasets/1/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    }]
+},
+{
+    "study": [
+    {
+        "doi": ["https://doi.org/10.3886/ICPSR38706.v3"],
+        "title": ["Early Care and Education Leadership Study (ExCELS), United States, 2022"],
+        "issued": ["2023-06-28T09:13:20"],
+        "source": [],
+        "creator": [
+        {
+            "name": "United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation",
+            "type": "org:Organization",
+            "order": "0"
+        }],
+        "funding": [
+        {
+            "organization": "United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation"
+        }],
+        "keyword": ["Child Care and Development Fund", "Head Start", "child care", "daycare", "early childhood education", "education", "infants", "leadership", "preschool children", "teachers", "testing and measurement", "toddlers"],
+        "purpose": ["<p>The Early Care and Education Leadership Study (ExCELS) had three aims:</p>\n<ol>\n<li>To fill the definitional and measurement gaps to understand what leadership looks like, as defined by who participates in leadership in center-based early care and education (ECE) settings and the ways in which leaders can improve quality experiences for children in those settings</li>\n<li>To develop a new measure of ECE leadership</li>\n<li>To identify actionable leadership development initiatives and methods of evaluating them</li>\n</ol>"],
+        "spatial": ["United States"],
+        "version": ["V3"],
+        "altTitle": ["ExCELS"],
+        "archives": ["CFDA", "ICPSR"],
+        "citation": ["<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation. Early Care and Education Leadership Study (ExCELS), United States, 2022. Inter-university Consortium for Political and Social Research [distributor], 2024-01-16. https://doi.org/10.3886/ICPSR38706.v3</div>\n</div>"],
+        "modified": ["2024-01-16T11:43:51"],
+        "universe": ["Center managers and teaching staff (lead, head, co-teacher and assistant teachers) in center-based early care and education (ECE) settings (that is, settings serving children from birth through age 5, not yet in kindergarten) that were receiving funding through Child Care and Development Fund (CCDF) subsidies and/or from Head Start grants."],
+        "fundingOrg": ["United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation"],
+        "identifier": ["38706"],
+        "kindOfData": ["survey data"],
+        "licenseURI": ["https://www.icpsr.umich.edu/web/ICPSR/studies/38706/terms"],
+        "restricted": ["true"],
+        "timeMethod": ["Cross-sectional"],
+        "timePeriod": [
+        {
+            "startDate": "2022"
+        }],
+        "description": ["<p>The Early Care and Education Leadership Study (ExCELS) was funded by the Office of Planning, Research, and Evaluation within the Administration for Children and Families in the U.S. Department of Health and Human Services. The project team was led by Mathematica and the Institute for Early Education Leadership and Innovation at the University of Massachusetts Boston.</p>\n<p>The project included a descriptive study with the following goals: (1) establish a measure of early care and education (ECE) leadership in center-based settings that serve children birth through age five (not yet in kindergarten) that meets standards for reliability and validity to support its intended use and (2) examine empirical support for the associations among key constructs and outcomes in the theory of change of ECE leadership for quality improvement. Research questions focused on understanding the three key elements that define what leadership in center-based ECE settings looks like: (1) who leaders are, (2) what individuals bring to leadership, and (3) what ECE staff do as leaders.</p>\n<p>From February through July 2022, the study team recruited 132 ECE centers across four states that served children from birth through age 5 (who are not yet in kindergarten), and that were supported by Head Start grants or Child Care and Development Fund (CCDF) subsidies. From March through August 2022, the study team conducted phone interviews to collect center characteristics and learn about the center's staffing structure and leadership positions, and distributed surveys to center managers and teaching staff in recruited centers.</p>\n<p>The User's Guide for this study can be obtained by selecting \"Documentation Only\" from the Download tab on this study homepage. The User's Guide and all ExCELS documentation will download in one zip file.</p>"],
+        "distributor": ["Inter-university Consortium for Political and Social Research"],
+        "studyDesign": ["<p>Recruitment occurred through mass mailing of study materials to centers (March and May 2022) and individualized center recruitment via email and phone follow-up that went though July 2022.</p>\n<p>During recruitment, primary site leaders (PSL) who expressed interest participated in a brief engagement interview via phone call to collect information on a center's characteristics and determine their center's study eligibility. Upon confirming eligibility and center participation, within one week of completing the engagement interview, a staffing structure and leadership positions (SSLP) interview was conducted with PSLs by phone. Rosters of all teaching staff in classrooms serving children from birth through age 5 and contact information for center managers were also collected at the end of each SSLP interview. SSLP interviews were conducted from March through August 2022.</p>\n<p>At each center, up to three center managers received a center manager survey, a 25-minute self-administered, web-based survey with a paper option. Center manager respondents were provided with a token of appreciation for survey completion. All teaching staff included on the center's roster received a teaching staff survey, a 60-minute, self-administered, web-based survey, with a paper option. Teaching staff survey respondents were provided with both a pre-pay token of appreciation and one upon survey completion. Data collection for both the center manager and teaching staff survey was completed by the end of August 2022.</p>"],
+        "accessRights": ["Access to these data requires an application and signed Restricted Data Use Agreement. Details, including the Restricted Data Use Agreement, are provided via the online application."],
+        "analysisUnit": ["Center", "Individual"],
+        "commonScales": ["<p>The Essential 0-5 Survey. Ehrlich, S.B., D.M. Pacchiano, A.G. Stein, M.R. Wagner, S. Luppescu, S. Park, E. Frank, H. Lewandowski, and C. Young. \"Organizing Early Education for Improvement: Testing a New Survey Tool.\" University of Chicago Consortium on School Research and the Ounce of Prevention Fund, 2018.</p>\n<p>Stress scale from the Survey of Organization Functioning (Institute of Behavior\nResearch 2005)</p>"],
+        "ownerArchive": ["CFDA"],
+        "responseRate": ["<p>The Early Care and Education Leadership Study (ExCELS) descriptive study sample included all 132 recruited, eligible centers that completed a staffing structure and leadership positions (SSLP) interview. Not all centers completed all survey data collection activities.\nEight centers withdrew from further data collection after the SSLP interview\nand before staff could be invited to complete the surveys. Two additional\ncenters withdrew from data collection after the center manager survey data\ncollection. None of these 10 centers provided teaching staff rosters.\nTherefore, 122 centers participated in all data collection activities (that is,\ncompleted the SSLP interview and received invitations to the center manager and\nteaching staff surveys). To examine the technical properties of the\nleadership item set, the research team established an analytic complete target for a center of\nat least 50 percent for the response rate on the teaching staff surveys (with\nat least two completed teaching staff surveys) and at least the primary site leader (PSL) completing\na center manager survey. This goal was met by 110 centers.</p>\n<p>Across all centers that received survey invitations, the response rate was\n92 percent for center managers and 88 percent for teaching staff. Considering the response rates within a center, center manager surveys were completed in 121 centers--107 centers had all center managers\ncomplete a survey, with 119 having at least the PSL complete the survey. Teaching staff surveys were completed in 122 centers--94 centers had 80 percent or more of their\nteaching staff complete a survey (with at least two completes). At least 50 percent of teaching staff completed a survey in 119 centers.</p>"],
+        "collectionDate": [
+        {
+            "endDate": "2022-08-31",
+            "startDate": "2022-03-01"
+        }],
+        "collectionMode": ["mail questionnaire", "paper and pencil interview (PAPI)", "telephone interview", "web-based survey"],
+        "geographicUnit": [],
+        "classifications": ["CFDA.I", "ICPSR.V", "ICPSR.V.A"],
+        "collectionNotes": [
+        {
+            "note": "<p><strong>Acknowledgments:</strong></p>\n<p>Gretchen Kirby, Project Director, Mathematica</p>\n<p>Lizabeth Malone, Co-Project Investigator, Mathematica</p>\n<p>Anne Douglass, Co-Project Investigator, Institute for Early Education Leadership and Innovation at the University of Massachusetts Boston</p>",
+            "order": "0"
+        }],
+        "collectionChanges": ["2023-06-29 ICPSR codebooks were updated with a corrected study website link.", "2024-01-16 The User Guide was updated by the Data Producer to include an additional citation for the study technical report.", "<p>2023-06-28 ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:</p><ul><li>Created variable labels and/or value labels.</li><li>Checked for undocumented or out-of-range codes.</li></ul>"],
+        "samplingProcedure": ["<p>The Early Care and Education Leadership Study (ExCELS) used a purposive sample. The research team selected four states to sample centers for the descriptive study and aimed to recruit at least 120 centers within those states for the study. The purposive sample focused on centers funded by Head Start or CCDF that were located in urban and suburban areas. A center was defined as a specific physical location with at least two classrooms primarily providing early care and education (ECE) services for children from birth through age 5 (not yet in kindergarten). States were selected using the following criteria:</p>\n<ul>\n<li>Strength of administrator qualifications in licensing, credentialing, and Quality Rating and Improvement System (QRIS) criteria, as of June 2018</li>\n<li>Funding to support access and quality</li>\n<li>Stringency of licensing requirements as minimum standards for quality to reflect the regulatory environment</li>\n<li>Geographic diversity</li></ul>\n<p>Once states were selected for the study based on sampling criteria, sampling lists of early care and education (ECE) centers were constructed by pulling information from the Head Start Enterprise System, public websites about community-based centers, and a state Department of Education's list of centers in that state. Researchers conducted varying levels of outreach to over 3,000 centers to ultimately have 132 eligible, participating centers.</p>\n<p>Once centers were deemed eligible, survey respondents were selected, including staff in formal manager roles (center directors or managers) who were responsible for daily operations and the education program in each center and all teaching staff from each center in classrooms serving children from birth through age 5.</p>\n<p>One to three managers per center were selected to receive the center manager survey, depending upon center size. The manager had to spend some time at the center to be eligible to complete the survey. All teaching staff in classrooms serving children from birth through age 5, including lead, head, or co-teachers and assistant teachers, were selected for the teaching staff survey.</p>"],
+        "membershipRequired": ["false"]
+    }],
+    "dataset": [
+    {
+        "title": ["Study-Level Files"],
+        "fileName": ["doc38706-all_Supplement.pdf.gz", "doc38706-all_Supplement_REST.pdf", "ug38706-all.pdf.gz", "ug38706-all_REST.pdf"],
+        "identifier": ["38706-0000"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/0/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    },
+    {
+        "title": ["Teaching Staff Survey Data"],
+        "fileName": ["cb38706-0003_ICPSR.pdf.gz", "cb38706-0003_ICPSR_REST.pdf", "da38706-0003_REST.dta", "da38706-0003_REST.rda", "da38706-0003_REST.sav", "da38706-0003_REST.stc", "da38706-0003_REST.tsv", "da38706-0003_REST.txt", "set38706-0003_REST.dct", "set38706-0003_REST.do", "set38706-0003_REST.sas", "set38706-0003_REST.sps", "ssf38706-0003_REST.do", "ssf38706-0003_REST.sas"],
+        "identifier": ["38706-0003"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/3/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    },
+    {
+        "title": ["Center Level Data"],
+        "fileName": ["cb38706-0001_ICPSR.pdf.gz", "cb38706-0001_ICPSR_REST.pdf", "da38706-0001_REST.dta", "da38706-0001_REST.rda", "da38706-0001_REST.sav", "da38706-0001_REST.stc", "da38706-0001_REST.tsv", "da38706-0001_REST.txt", "set38706-0001_REST.dct", "set38706-0001_REST.do", "set38706-0001_REST.sas", "set38706-0001_REST.sps", "ssf38706-0001_REST.do", "ssf38706-0001_REST.sas"],
+        "identifier": ["38706-0001"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/1/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    },
+    {
+        "title": ["Center Manager Survey Data"],
+        "fileName": ["cb38706-0002_ICPSR.pdf.gz", "cb38706-0002_ICPSR_REST.pdf", "da38706-0002_REST.dta", "da38706-0002_REST.rda", "da38706-0002_REST.sav", "da38706-0002_REST.stc", "da38706-0002_REST.tsv", "da38706-0002_REST.txt", "set38706-0002_REST.dct", "set38706-0002_REST.do", "set38706-0002_REST.sas", "set38706-0002_REST.sps", "ssf38706-0002_REST.do", "ssf38706-0002_REST.sas"],
+        "identifier": ["38706-0002"],
+        "describedBy": ["https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/2/download/doc?path=/"],
+        "describedByType": ["application/zip"]
+    }]
+}]

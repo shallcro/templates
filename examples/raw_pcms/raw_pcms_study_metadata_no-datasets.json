@@ -1,0 +1,51 @@
+{
+    "study": [
+    {
+        "doi": ["https://doi.org/10.3886/ICPSR09817.v1"],
+        "title": ["Consumer Expenditure Survey, 1990: Interview Survey, Detailed Expenditure Files"],
+        "issued": ["1992-10-31T00:00:00"],
+        "source": ["personal interviews"],
+        "creator": [
+        {
+            "name": "United States Department of Labor. Bureau of Labor Statistics",
+            "type": "org:Organization",
+            "order": "0"
+        }],
+        "funding": [],
+        "keyword": ["automobile expenses", "clothing", "construction costs", "consumer behavior", "consumer expenditures", "consumption", "credit", "debt", "demographic characteristics", "durable goods", "education expenditures", "employment", "energy consumption", "families", "fixed income", "food costs", "health expenditures", "health insurance", "home ownership", "hospitalization", "household appliances", "household budgets", "household expenditures", "household income", "housing costs", "insurance", "memberships", "mortgage payments", "property repairs", "purchasing", "recreation expenses", "taxes", "unemployment benefits", "wages and salaries"],
+        "purpose": [],
+        "spatial": ["United States"],
+        "version": ["V1"],
+        "altTitle": [],
+        "archives": ["ICPSR", "NACDA"],
+        "citation": ["<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">United States Department of Labor. Bureau of Labor Statistics. Consumer Expenditure Survey, 1990: Interview Survey, Detailed Expenditure Files. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2006-01-12. https://doi.org/10.3886/ICPSR09817.v1</div>\n</div>"],
+        "modified": ["2006-01-12T00:00:00"],
+        "universe": ["Total civilian, noninstitutionalized population of the \nUnited States."],
+        "fundingOrg": [],
+        "identifier": ["9817"],
+        "kindOfData": ["survey data"],
+        "licenseURI": ["https://www.icpsr.umich.edu/web/ICPSR/studies/09817/terms"],
+        "restricted": ["false"],
+        "timeMethod": [],
+        "timePeriod": [
+        {
+            "startDate": "1990"
+        }],
+        "description": ["The ongoing Consumer Expenditure Survey (CES) provides a \n continuous flow of information on the buying habits of American \n consumers and also furnishes data to support periodic revisions of the \n Consumer Price Index. The survey consists of two separate components: \n (1) a quarterly Interview Survey in which each consumer unit (CU) in \n the sample is interviewed every three months over a 15-month period, \n and (2) a Diary Survey completed by the sample CUs for two consecutive \n one-week periods. The Interview Survey was designed to collect data on \n major items of expense, household characteristics, and income. The \n expenditures covered by the survey are those that respondents can \n recall fairly accurately for three months or longer. In general, these \n expenditures include relatively large purchases, such as those for \n property, automobiles, and major appliances, or expenditures that occur \n on a fairly regular basis, such as rent, utilities, or insurance \n premiums. Expenditures incurred while on trips are also covered by the \n survey. Excluded are nonprescription drugs, household supplies, and \n personal care items. Including global estimates on spending for food, \n it is estimated that about 90 to 95 percent of expenditures are covered \n in the Interview Survey. The Detailed Expenditure Files that comprise \n this data collection were created from all the major expenditure \n sections of the Interview Survey questionnaires. These files contain \n more detailed expenditure records than those found in the Interview \n Survey data tapes. In addition, the Detailed Expenditure Files include \n family characteristics (FMLY) files and income and member \n characteristics (MEMB) files identical to those found in the Interview \nSurvey."],
+        "distributor": [],
+        "studyDesign": [],
+        "accessRights": [],
+        "analysisUnit": [],
+        "commonScales": [],
+        "ownerArchive": ["ICPSR"],
+        "responseRate": [],
+        "collectionDate": [],
+        "collectionMode": [],
+        "geographicUnit": [],
+        "classifications": ["ICPSR.IV.A", "NACDA.III"],
+        "collectionNotes": [],
+        "collectionChanges": ["2006-01-12 All files were removed from dataset 56 and flagged as study-level files, so that they will accompany all downloads.", "2006-01-12 All files were removed from dataset 57 and flagged as study-level files, so that they will accompany all downloads.", "2018-02-15 The citation of this study may have changed due to the new version control system that has been implemented. The previous citation was: <ul><li>U.S. Dept. of Labor, Bureau of Labor Statistics. CONSUMER EXPENDITURE SURVEY, 1990: INTERVIEW SURVEY, DETAILED EXPENDITURE FILES. Washington, DC: U.S. Dept. of Commerce, Bureau of the Census [producer], 1992. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 1992. http://doi.org/10.3886/ICPSR09817.v1</li></ul>"],
+        "samplingProcedure": ["The Consumer Expenditure Survey is based on a national \n probability sample of households. Households are selected from primary \n sampling units (PSUs), which consist of counties (or parts thereof), \n groups of counties, or independent cities. The set of sample PSUs used \n for the survey is composed of 101 areas, of which 85 urban areas have \n also been selected by the Bureau of Labor Statistics for the Consumer \n Price Index program. The sampling frame from which housing units were \n selected was generated from the 1980 Census 100-percent detail file, \n augmented by new construction permits and coverage improvement \n techniques used to eliminate recognized deficiencies in that census. \n The sample design is a rotating panel survey in which one-fifth of the \n sample is dropped and a new group added each quarter. Each panel is \n interviewed for five consecutive quarters and then dropped from the \nsurvey."],
+        "membershipRequired": ["true"]
+    }]
+}

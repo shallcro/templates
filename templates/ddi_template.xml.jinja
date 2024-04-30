@@ -156,7 +156,7 @@
         </subject>
     {% endif %}
 
-    {# Description #}
+    {# Summary #}
     {% if study.description %}
         <abstract contentType="abstract">{{ study.description | join('\n') | strip_tags | trim | replace('"', "&quot;") | replace("'", "&apos;") | escape }}</abstract>
     {% endif %}

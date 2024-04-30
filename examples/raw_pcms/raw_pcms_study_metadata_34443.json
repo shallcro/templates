@@ -1,0 +1,69 @@
+{
+    "pcms_study_34443":
+    {
+        "study": [
+        {
+            "doi": ["https://doi.org/10.3886/ICPSR34443.v1"],
+            "title": ["Post-Acute Care Supplement (PACS) Research Files, 2000-2010"],
+            "issued": ["2013-02-28T11:51:22"],
+            "source": ["Long-Term Care Minimum Data Set (MDS): 2000-2010", "Outcome Assessment Information Set (OASIS): 2000-2010"],
+            "creator": [
+            {
+                "name": "MaCurdy, Thomas",
+                "type": "foaf:Person",
+                "order": "0",
+                "affiliation": "SPHERE Institute"
+            },
+            {
+                "name": "Shafrin, Jason",
+                "type": "foaf:Person",
+                "order": "1",
+                "affiliation": "Acumen, LLC"
+            }],
+            "funding": [
+            {
+                "grant": "1R24HS019661-01",
+                "organization": "United States Department of Health and Human Services. Agency for Healthcare Research and Quality"
+            }],
+            "keyword": ["Medicaid", "Medicare", "health care", "health care services", "home health care", "nursing homes"],
+            "purpose": [],
+            "spatial": ["United States"],
+            "version": ["V1"],
+            "altTitle": [],
+            "archives": ["AHRQMCC", "ICPSR"],
+            "citation": ["<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">MaCurdy, Thomas, and Shafrin, Jason. Post-Acute Care Supplement (PACS) Research Files, 2000-2010. Medicare/Medicaid Research Information Center (MedRIC) [distributor], 2013-02-28. https://doi.org/10.3886/ICPSR34443.v1</div>\n</div>"],
+            "modified": ["2013-02-28T11:51:22"],
+            "universe": ["OASF: patients treated in Medicare-certified home health facilities.  LTCASF: patients treated in Medicare-certified or Medicaid-certified long-term care."],
+            "fundingOrg": ["United States Department of Health and Human Services. Agency for Healthcare Research and Quality"],
+            "identifier": ["34443"],
+            "kindOfData": ["administrative records data"],
+            "licenseURI": ["https://www.icpsr.umich.edu/web/ICPSR/studies/34443/terms"],
+            "restricted": ["true"],
+            "timeMethod": [],
+            "timePeriod": [
+            {
+                "endDate": "2010-12-31",
+                "startDate": "2000-01-01"
+            }],
+            "description": ["<p><strong>Overview.</strong> The Post-Acute Care Supplement (PACS) files were developed from two administrative data sets that capture assessments at multiple points in post-acute care: the Outcome and Assessment Information Set (OASIS) Summary File (OASF): 2000-2010, which covers home health care, and the Long-Term Care Annual Summary File (LTCASF): 2000-2010, which covers nursing homes. Annual files were developed for the period 2000 to 2010 that summarize health conditions, functional status, and care patterns into one observation per beneficiary per year.</p>\n<p><strong>Data Access.</strong> These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com).</p>"],
+            "distributor": ["Medicare/Medicaid Research Information Center (MedRIC)"],
+            "studyDesign": [],
+            "accessRights": ["These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com)."],
+            "analysisUnit": ["For OASF, all patients in Medicare-certified home health agencies. For LTCASF, all patients in Medicare-certified or Medicaid-certified long-term care facilities."],
+            "commonScales": ["ADL Functionality Scale - Similar to Katz Basic Activities of Daily Living Scale.  IADL Functionality Scale - Similar to the Lawton Instrumental Activities of Daily Living Scale."],
+            "ownerArchive": ["ICPSR"],
+            "responseRate": [],
+            "collectionDate": [
+            {
+                "startDate": "2012"
+            }],
+            "collectionMode": [],
+            "geographicUnit": ["ZIP Code."],
+            "classifications": ["AHRQMCC.I", "AHRQMCC.II", "ICPSR.IX"],
+            "collectionNotes": [],
+            "collectionChanges": ["2018-02-15 The citation of this study may have changed due to the new version control system that has been implemented. The previous citation was: <ul><li>MaCurdy, Thomas, and Jason Shafrin. Post-Acute Care Supplement (PACS) Research Files, 2000-2010. ICPSR34443-v1. Burlingame, CA: Medicare/Medicaid Research Information Center (MedRIC) [distributor], 2013-02-28. http://doi.org/10.3886/ICPSR34443.v1</li></ul>"],
+            "samplingProcedure": ["Each year of OASF data uses the universe of OASIS data.  Each year of LTCASF data uses the universe of Minimum Data Set (MDS) data."],
+            "membershipRequired": ["false"]
+        }]
+    }
+}
