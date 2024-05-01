@@ -62,7 +62,9 @@
 		"Outcome Assessment Information Set (OASIS): 2000-2010"
 	],
 	"scales": "ADL Functionality Scale - Similar to Katz Basic Activities of Daily Living Scale.  IADL Functionality Scale - Similar to the Lawton Instrumental Activities of Daily Living Scale.",
-	"unit_of_observation": "For OASF, all patients in Medicare-certified home health agencies. For LTCASF, all patients in Medicare-certified or Medicaid-certified long-term care facilities.",
+	"unit_of_observation": [
+		"For OASF, all patients in Medicare-certified home health agencies. For LTCASF, all patients in Medicare-certified or Medicaid-certified long-term care facilities."
+	],
 	"smallest_geographic_unit": "ZIP Code.",
 	"restrictions": "These data are not available from ICPSR.  Because the data contain confidential CMS assessment data, researchers will need to secure a data use agreement from CMS.  For researchers who secure a DUA, the files will be distributed to them through the Medicare/Medicaid Research Information Center (MedRIC) (medric@acumenllc.com).",
 	"changes_to_collection": [

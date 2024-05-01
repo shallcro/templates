@@ -193,7 +193,7 @@
     	, "time_method": {{ study.timeMethod | jsonify }}
 	{% endif %}
 
-	{# Data Sources #}
+	{# DATA SOURCES #}
     {% if study.source | length > 0 %}
     	, "data_source": {{ study.source | jsonify }}
 	{% endif %}
@@ -210,7 +210,7 @@
     	, "response_rates": {{ study.responseRate[0] | strip_tags | jsonify }}
 	{% endif %}
 
-	{# Scales #}
+	{# SCALES #}
     {% if study.commonScales and study.commonScales != 'None' %}
     	, "scales": {{ study.commonScales[0] | strip_tags | jsonify }}
 	{% endif %}
@@ -256,7 +256,7 @@
 		{% for entry in dataset | defaultattr("identifier", "") | sort(attribute="identifier") %}
 			{
 			{% if entry.identifier %}
-				{% set number = entry.identifier[0] | replace(study.identifier[0], "") | replace("-", "") | int | string %}
+				{% set number = entry.identifier[0] | replace(study.identifier[0], "") | replace("-", "") | int %}
                 "number": {{ number | jsonify }},			
             {% endif %}
 

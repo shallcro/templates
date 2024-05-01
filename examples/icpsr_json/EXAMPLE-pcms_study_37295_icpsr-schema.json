@@ -1,0 +1,118 @@
+{
+	"context": "schema/icpsr_study_schema.json",
+	"version": "V2",
+	"version_date": "2023-03-16",
+	"original_release_date": "2020-02-27",
+	"title": "Teacher Victimization: Understanding Prevalence, Causation, and Negative Consequences in a Large Metropolitan Area in the Southwestern United States, 2016-2019",
+	"principal_investigator": [
+		{
+			"name": "Moon, Byongook",
+            "affiliation": "University of Texas at San Antonio",
+            "order": "0"
+		},
+		{
+			"name": "Enriquez, Roger",
+            "affiliation": "University of Texas at San Antonio",
+            "order": "1"
+		}
+	],
+	"citation": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Moon, Byongook, and Enriquez, Roger. Teacher Victimization: Understanding Prevalence, Causation, and Negative Consequences in a Large Metropolitan Area in the Southwestern United States, 2016-2019. Inter-university Consortium for Political and Social Research [distributor], 2023-03-16. https://doi.org/10.3886/ICPSR37295.v2</div>\n</div>",
+	"distributor": [
+		{
+			"name": "Inter-university Consortium for Political and Social Research"
+		}
+	],
+	"study_number": "37295",
+	"doi": "https://doi.org/10.3886/ICPSR37295.v2",
+	"funding_source": [
+		{
+			"agency": "United States Department of Justice. Office of Justice Programs. National Institute of Justice",
+			"grant_number": "2015-CK-BX-0019"
+		},
+		{
+			"agency": "United States Department of Justice. Office of Justice Programs. National Institute of Justice",
+			"grant_number": "2017-CK-BX-0010"
+		}
+	],
+	"summary": "<p>\nFor Waves 1 and 2 (2016-2017), the two-year longitudinal research examined the prevalence of seven different types of teacher victimization, its negative consequences among victimized teachers, and predictors of aggression directed against teachers. The research, using a stratified multistage cluster sampling design, surveyed 1,628 middle and high school teachers in 14 school districts, located in a large metropolitan area in the southwest region of the United States. Two waves of the longitudinal research collected 1) teachers' socio-demographic factors, 2) teacher classroom management styles, and 3) school climate factors which are related to teacher victimization. Also, the data contained characteristics of victimization, school responses to teacher victimization, and negative consequences of teacher victimization.\n</p>\n<p>\nWaves 3 and 4 (2018-2019) explored the trends and patterns of different types of teacher victimization focusing on victimizations via verbal abuse and non-physical contact aggression.  They also examined the percentage of teachers reporting victimizations to school administrators, school responses to teacher victimization, and satisfaction with school handling of victimization incidents.  Finally, Waves 3 and 4 investigated the effect of procedural justice on 1) victimized teachers' satisfaction with school responses, 2) physical distress, and 3) emotional distress.\n</p>\n<p>\n<strong>Users should refer to the data collection notes field below for additional information about study citation.</strong>\n</p>",
+	"subject_term": [
+        "aggression",
+        "high schools",
+        "middle schools",
+        "school violence",
+        "teachers",
+        "victimization"
+    ],
+	"geographic_coverage_area": [
+		"Southwestern United States",
+		"United States"
+	],
+	"time_period": [
+		{
+			"date": "2016--2017"
+		},
+		{
+			"date": "2018--2019"
+		}
+	],
+	"collection_date": [
+		{
+			"date": "2016-03--2016-06",
+			"time_frame": "Wave 1"
+		},
+		{
+			"date": "2017-03",
+            "time_frame": "Wave 2"
+        },
+        {
+            "date": "2018",
+            "time_frame": "Wave 3 (Spring)"
+        },
+        {
+            "date": "2019",
+            "time_frame": "Wave 4 (Spring)"
+        }
+	],
+	"universe": "Middle and high school teachers in the region.",
+	"data_type": [
+		"survey data"
+	],
+	"collection_note": [
+		"Users should note that dataset 1 (Waves 1 and 2 Data) should be attributed to both Byongook Moon and Roger Enriquez while dataset 2 (Waves 3 and 4 Data) should be attributed to only Byongook Moon."	
+	],
+	"study_purpose": "The purpose of the study is to investigate teacher victimization in its scope, predictors, and negative consquences. Specifically, three gaps in the current literature are addressed: 1) the types of victimization and their frequencies, such as theft, physical assault, sexual harassment, verbal abuse, non-physical contact aggressive behaviors, and bullying (online and in-person); 2) causal predictors of teacher victimization, such as teacher sociodemographic factors, classroom behaviors, and school climate; and 3) the negative consequences of teachers' victimization, such as impact on job performance, trust of students, concern with school safety, and job turnover.",
+	"study_design": "<p>\nFor Waves 1 and 2, the study utilized a longitudinal design, collecting data across two waves (2016, 2017). Teachers selected for the sample were invited to participate through a Qualtrics survey link. Participants who initially responded (n = 1,628) were recontacted for follow-up one year later (n = 1,317).\n</p>\n<p>\nWaves 3 and 4 were a continuation of the study.  Among 1,317 Wave 2 participants, 1,239 were current teachers and 78 participants were former teachers who were excluded from Waves 3 and 4 research. In spring 2018, 1,101 among 1,239 eligible participants completed the Wave 3 web-based survey, having a retention rate of 89 percent from Wave 2 to Wave 3 research. Of 1,101 participants at Wave 3, 57 participants were former teachers and were not eligible for further participation at Wave 4 research. In spring 2019, 945 out of 1,044 participants continued to participate and completed the Wave 4 survey, yielding a retention rate of 91 percent from Wave 3 to Wave 4. For former teachers at each wave, separate question items were used to examine whether teacher victimization, school safety, and/or school's responses to teacher victimization were related to the career exit decision.\n</p>",
+	"sampling": "To collect a representative sample of teachers in the region, a stratified multistage cluster sampling design was used. First, the sampling frame was constructed by obtaining the lists of middle and high school teachers provided by each school district and/or collected from publicly available school websites. Second, approximately 10 to 30 teachers in each school were randomly selected based on the number of teachers listed at the school. For example, up to 30 teachers were randomly selected in a high school with at least 100 faculty members, while around 10 teachers were selected in a middle school with\napproximately 30 to 40 teachers.",
+	"time_method": [
+		"Longitudinal"
+	],
+	"collection_mode": [
+		"web-based survey"
+	],
+	"response_rates": "<p>Wave 1: 52 percent</p>\n<p>Wave 2: 81 percent (retention)</p>\n<p>Wave 3: 89 percent (retention)</p>\n<p>Wave 4: 91 percent (retention)</p>",
+	"unit_of_observation": ["Individual"],
+	"restrictions": "Access to these data is restricted. Users interested in obtaining these data must complete a Restricted Data Use Agreement, specify the reasons for the request, and obtain IRB approval or notice of exemption for their research.",
+	"changes_to_collection": [
+		{
+			"note": "<p>2020-02-27 ICPSR data undergo a confidentiality review and are altered when necessary to limit the risk of disclosure. ICPSR also routinely creates ready-to-go data files along with setups in the major statistical software formats as well as standard codebooks to accompany the data. In addition to these procedures, ICPSR performed the following processing steps for this data collection:</p><ul><li>Checked for undocumented or out-of-range codes.</li></ul>"
+		},
+		{
+			"note": "2023-03-16 Data file 2 (Waves 3 and 4 Data) was added. Files pertaining to data file 1 (Waves 1 and 2 Data) were updated to reflect the change in years in the study title (from \"2016-2017\" in version 1 to \"2016-2019\" in version 2)."
+		}
+	],
+	"classification": ["ICPSR.XVII.E", "NACJD.X", "NACJD.XXV"],
+	"filsets": [
+		{
+			"number": 0,
+			"name": "Study-Level Files"
+		},
+		{
+			"number": 1,
+			"name": "Waves 1 and 2 Data"
+		},
+		{
+			"number": 2,
+			"name": "Waves 3 and 4 Data"
+		}
+	]
+}
