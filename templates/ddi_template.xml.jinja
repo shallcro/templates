@@ -3,7 +3,14 @@
 {% set dataset = tree.get('dataset', []) %}
 
 <codeBook
-    xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xmlns="ddi:codebook:2_5" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xmlns="ddi:codebook:2_5" version="2.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codeBookAgency="us.icpsr" 
+
+    {# add ID attribute if study.identifier is present #}
+    {% if study.identifier %}
+        {% set id = "ICPSR-" ~ study.identifier[0] %}
+        ID="{{ id }}"
+     {% endif %}
+    >
 
     {% The 'docDscr' section describes the metadata record itself %}
     <docDscr>
