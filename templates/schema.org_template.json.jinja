@@ -10,10 +10,20 @@
 
     {# DOI / Identifier #}
     {% if study.doi %}
-        , "identifier": {{ study.doi[0] | jsonify }}
+        , "identifier": {
+            "@id": {{ study.doi[0] | jsonify }}
+            , "@type": "PropertyValue"
+            , "propertyID": "https://registry.identifiers.org/registry/doi"
+            , "name": "Digital Object Identifier"
+            , "value": {{ study.doi[0] | replace('https://doi.org/', 'doi:') | jsonify }}
+        }
+        , "url": {{ study.doi[0] | jsonify }}
     {% else %}
         , "identifier": {{ study.identifier[0] | jsonify }}
     {% endif %}
+
+    {# Recommended by Google; use default value for all studies #}
+    , "includedInDataCatalog": "https://www.icpsr.umich.edu/"
 
     {# Title #}
     {% if study.title %}
@@ -81,14 +91,14 @@
         {% endif %}
     {% endif %}
 
-    {# Version Date #}
+    {# Original Release Date #}
     {% if study.issued %}
-        , "datePublished": {{ (study.issued[0] if study.version[0] == 'V1' else study.modified[0]) | from_iso_date | format_date('%Y-%m-%d') | jsonify }}
+        , "datePublished": {{ study.issued[0] | from_iso_date | format_date('%Y-%m-%d') | jsonify }}
     {% endif %}
 
-    {# Citation #}
-    {% if study.citation %}
-        , "citation": {{ study.citation[0] | jsonify }}
+    {# Version Date #}
+    {% if study.modified %}
+        , "dateModified": {{ study.modified[0] | from_iso_date | format_date('%Y-%m-%d') | jsonify }}
     {% endif %}
 
     {# Funding Sources #}  
@@ -140,7 +150,7 @@
 
     {# Time Period #}
     {% if study.timePeriod %}
-        , "temporalCoverage": {{ study.timePeriod | collapse_date_ranges | jsonify }}
+        , "temporalCoverage": {{ study.timePeriod | flatten_date_ranges | sort | jsonify }}
     {% endif %}
 
     {# Series #}
@@ -167,7 +177,7 @@
             {% set restrictionNote = restrictionNote ~ " Special restrictions apply to one or more files. %}
         {% endif %}
 
-        {% set restrictionNote = restrictionNote ~ " Visit " ~ study.doi[0] ~ " to apply for access to restricted data." %}
+        {% set restrictionNote = restrictionNote ~ " Visit " ~ study.doi[0] ~ " for more information." %}
 
     {% endif %}
 
@@ -188,12 +198,8 @@
                         , "identifier": {{ entry.identifier[0] | jsonify }}
                     {% endif %}
 
-                    {% if entry:describedBy %}
-                        , "contentUrl": {{ entry:describedBy[0] | jsonify }}
-                    {% endif %}
-
-                    {% if entry.describedByType %}
-                        , "encodingFormat": {{ entry.describedByType[0] | jsonify }}
+                    {% if entry.describedBy %}
+                        , "usageInfo": {{ entry.describedBy[0] | jsonify }}
                     {% endif %}
                 }
                 {% if not loop.last %},{% endif %}

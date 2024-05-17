@@ -363,7 +363,7 @@
             {% set fileID = "ICPSR-" ~ dataFile.identifier[0] %}
             <fileDscr>
                 <fileTxt>
-                    <fileName ID="{{ fileID }}</fileName>
+                    <fileName ID="{{ fileID }}>{{ dataFile.title[0] }}</fileName>
                 </fileTxt>
             </fileDscr>
         {% endfor %}
