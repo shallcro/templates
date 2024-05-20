@@ -1,7 +1,15 @@
 {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "identifier": "https://doi.org/10.3886/ICPSR38706.v3",
+    "identifier": {
+        "@id": "https://doi.org/10.3886/ICPSR38706.v3",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "name": "Digital Object Identifier",
+        "value": "doi:10.3886/ICPSR38706.v3",
+        "url": "https://doi.org/10.3886/ICPSR38706.v3"
+    },
+    "url": "https://doi.org/10.3886/ICPSR38706.v3",
     "name": "Early Care and Education Leadership Study (ExCELS), United States, 2022",
     "alternateName": "ExCELS",
     "version": "V3",
@@ -16,7 +24,6 @@
         "name": "Inter-university Consortium for Political and Social Research"
     },
     "datePublished": "2024-01-16",
-    "citation": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">United States Department of Health and Human Services. Administration for Children and Families. Office of Planning, Research and Evaluation. Early Care and Education Leadership Study (ExCELS), United States, 2022. Inter-university Consortium for Political and Social Research [distributor], 2024-01-16. https://doi.org/10.3886/ICPSR38706.v3</div>\n</div>",
     "funding": {
         "@type": "MonetaryGrant",
         "funder": {
@@ -48,29 +55,25 @@
             "@type": "DataDownload",
             "name": "Study-Level Files",
             "identifier": "38706-0000",
-            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/0/download/doc?path=/",
-            "encodingFormat": "application/zip"
+            "usageInfo": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/0/download/doc?path=/"
         },
         {
             "@type": "DataDownload",
             "name": "Center Level Data",
             "identifier": "38706-0001",
-            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/1/download/doc?path=/",
-            "encodingFormat": "application/zip"
+            "usageInfo": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/1/download/doc?path=/"
         },
         {
             "@type": "DataDownload",
             "name": "Center Manager Survey Data",
             "identifier": "38706-0002",
-            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/2/download/doc?path=/",
-            "encodingFormat": "application/zip"
+            "usageInfo": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/2/download/doc?path=/"
         },
         {
             "@type": "DataDownload",
             "name": "Teaching Staff Survey Data",
             "identifier": "38706-0003",
-            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/3/download/doc?path=/",
-            "encodingFormat": "application/zip"
+            "usageInfo": "https://www.icpsr.umich.edu/web/ICPSR/studies/38706/versions/V3/datasets/3/download/doc?path=/"
         }
     ]
 }

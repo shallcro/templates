@@ -1,7 +1,15 @@
 {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "identifier": "https://doi.org/10.3886/ICPSR34443.v1",
+    "identifier": {
+        "@id": "https://doi.org/10.3886/ICPSR34443.v1",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "name": "Digital Object Identifier",
+        "value": "doi:10.3886/ICPSR34443.v1",
+        "url": "https://doi.org/10.3886/ICPSR34443.v1"
+    },
+    "url": "https://doi.org/10.3886/ICPSR34443.v1",
     "name": "Post-Acute Care Supplement (PACS) Research Files, 2000-2010",
     "version": "V1",
     "creator": [
@@ -21,7 +29,6 @@
         "name": "Medicare/Medicaid Research Information Center (MedRIC)"
     },
     "datePublished": "2013-02-28",
-    "citation": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">MaCurdy, Thomas, and Shafrin, Jason. Post-Acute Care Supplement (PACS) Research Files, 2000-2010. Medicare/Medicaid Research Information Center (MedRIC) [distributor], 2013-02-28. https://doi.org/10.3886/ICPSR34443.v1</div>\n</div>",
     "funding": {
         "@type": "MonetaryGrant",
         "funder": {

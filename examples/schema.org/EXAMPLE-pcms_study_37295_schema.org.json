@@ -1,7 +1,16 @@
 {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    "identifier": "https://doi.org/10.3886/ICPSR37295.v2",
+    "identifier": {
+        "@id": "https://doi.org/10.3886/ICPSR37295.v2",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "name": "Digital Object Identifier",
+        "name": "Digital Object Identifier",
+        "value": "doi:10.3886/ICPSR37295.v2",
+        "url": "https://doi.org/10.3886/ICPSR37295.v2"
+    },
+    "url": "https://doi.org/10.3886/ICPSR37295.v2",
     "name": "Teacher Victimization: Understanding Prevalence, Causation, and Negative Consequences in a Large Metropolitan Area in the Southwestern United States, 2016-2019",
     "version": "V2",
     "creator": [
@@ -21,7 +30,6 @@
         "name": "Inter-university Consortium for Political and Social Research"
     },
     "datePublished": "2023-03-16",
-    "citation": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Moon, Byongook, and Enriquez, Roger. Teacher Victimization: Understanding Prevalence, Causation, and Negative Consequences in a Large Metropolitan Area in the Southwestern United States, 2016-2019. Inter-university Consortium for Political and Social Research [distributor], 2023-03-16. https://doi.org/10.3886/ICPSR37295.v2</div>\n</div>",
     "funding": [
         {
             "@type": "MonetaryGrant",
@@ -53,7 +61,10 @@
         "Southwestern United States",
         "United States"
     ],
-    "temporalCoverage": "2016-2019",
+    "temporalCoverage": [
+        "2016/2017",
+        "2018/2019"
+    ],
     "license": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/terms",
     "conditionsOfAccess": "Available to the general public. Access to these data is restricted. Users interested in obtaining these data must complete a Restricted Data Use Agreement, specify the reasons for the request, and obtain IRB approval or notice of exemption for their research. Visit https://doi.org/10.3886/ICPSR37295.v2 to apply for access to restricted data.",
     "distribution": [
@@ -61,22 +72,19 @@
             "@type": "DataDownload",
             "name": "Study-Level Files",
             "identifier": "37295-0000",
-            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/versions/V2/datasets/0/download/doc?path=/",
-            "encodingFormat": "application/zip"
+            "usageInfo": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/versions/V2/datasets/0/download/doc?path=/"
         },
         {
             "@type": "DataDownload",
             "name": "Waves 1 and 2 Data",
             "identifier": "37295-0001",
-            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/versions/V2/datasets/1/download/doc?path=/",
-            "encodingFormat": "application/zip"
+            "usageInfo": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/versions/V2/datasets/1/download/doc?path=/"
         },
         {
             "@type": "DataDownload",
             "name": "Waves 3 and 4 Data",
             "identifier": "37295-0002",
-            "contentUrl": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/versions/V2/datasets/2/download/doc?path=/",
-            "encodingFormat": "application/zip"
+            "usageInfo": "https://www.icpsr.umich.edu/web/ICPSR/studies/37295/versions/V2/datasets/2/download/doc?path=/"
         }
     ]
 }
