@@ -1,6 +1,7 @@
 {
     "@context": "https://schema.org",
     "@type": "Dataset",
+    "includedInDataCatalog": "https://www.icpsr.umich.edu/",
     "identifier": {
         "@id": "https://doi.org/10.3886/ICPSR37901.v1",
         "@type": "PropertyValue",
