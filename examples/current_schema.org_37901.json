@@ -1,0 +1,66 @@
+{
+    "identifier": "https://doi.org/10.3886/ICPSR37901.v1",
+    "creator": [
+    {
+        "@type": "Organization",
+        "name": "University of Michigan. Survey Research Center. Economic Behavior Program"
+    }],
+    "keywords": ["consumer attitudes", "consumer expectations", "consumer expenditures", "economic policy", "financial planning", "government", "home ownership", "household expenditures", "household income", "interest rates", "investments", "national economy", "retirement", "stock markets", "unemployment"],
+    "citation": "University of Michigan. Survey Research Center. Economic Behavior Program. Survey of Consumer Attitudes and Behavior, January 2017.  [distributor], 2023-03-30. https://doi.org/10.3886/ICPSR37901.v1",
+    "@type": "Dataset",
+    "description": "<p>The Survey of Consumer Attitudes and Behavior series (also known as the Surveys of Consumers) was undertaken to measure changes in consumer attitudes and expectations, to understand why such changes occur, and to evaluate how they relate to consumer decisions to save, borrow, or make discretionary purchases. The data regularly include the Index of Consumer Sentiment, the Index of Current Economic Conditions, and the Index of Consumer Expectations. Since the 1940s, these surveys have been produced quarterly through 1977 and monthly thereafter.<\/p>\n<p>The surveys conducted in 2017 focused on topics such as evaluations and expectations about personal finances, employment, price changes, and the national business situation. Opinions were collected regarding respondents' appraisals of present market conditions for purchasing houses, automobiles, computers, and other durables. Also explored in this survey, were respondents'  types of savings and financial investments, loan use, family income, and retirement planning. <\/p>\n<p>Other topics in this series typically include ownership, lease, and use of automobiles, respondents' use of personal computers at home and in the office, and respondents' familiarity with and use of the internet. Demographic information includes ethnic origin, sex, age, marital status, and education.<\/p>",
+    "dateModified": "Thu Mar 30 09:19:03 EDT 2023",
+    "spatialCoverage": "United States",
+    "distribution": [
+    {
+        "contentURL": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/download/sas?path=/pcms/studies/0/3/7/9/37901/V1",
+        "@type": "DataDownload",
+        "encodingFormat": "application/zip",
+        "fileFormat": "SAS"
+    },
+    {
+        "contentURL": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/download/spss?path=/pcms/studies/0/3/7/9/37901/V1",
+        "@type": "DataDownload",
+        "encodingFormat": "application/zip",
+        "fileFormat": "SPSS"
+    },
+    {
+        "contentURL": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/download/stata?path=/pcms/studies/0/3/7/9/37901/V1",
+        "@type": "DataDownload",
+        "encodingFormat": "application/zip",
+        "fileFormat": "Stata"
+    },
+    {
+        "contentURL": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/download/ascii?path=/pcms/studies/0/3/7/9/37901/V1",
+        "@type": "DataDownload",
+        "encodingFormat": "application/zip",
+        "fileFormat": "ASCII"
+    },
+    {
+        "contentURL": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/download/rdata?path=/pcms/studies/0/3/7/9/37901/V1",
+        "@type": "DataDownload",
+        "encodingFormat": "application/zip",
+        "fileFormat": "R"
+    },
+    {
+        "contentURL": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/versions/V1/download/delimited?path=/pcms/studies/0/3/7/9/37901/V1",
+        "@type": "DataDownload",
+        "encodingFormat": "application/zip",
+        "fileFormat": "Delimited"
+    }],
+    "@context": "http://schema.org",
+    "version": "V1",
+    "url": "https://doi.org/10.3886/ICPSR37901.v1",
+    "datePublished": "Thu Mar 30 09:16:01 EDT 2023",
+    "license": "https://www.icpsr.umich.edu/web/ICPSR/studies/37901/terms",
+    "dateCreated": "2023-03-30 09:19:03.0",
+    "temporalCoverage": ["2017-01"],
+    "name": "Survey of Consumer Attitudes and Behavior, January 2017",
+    "publisher":
+    {
+        "@type": "Organization",
+        "name": "Inter-university Consortium for Political and Social Research [distributor]",
+        "alternateName": "ICPSR",
+        "url": "https://www.icpsr.umich.edu/"
+    }
+}
